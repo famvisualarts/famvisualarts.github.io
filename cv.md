@@ -3,23 +3,12 @@ layout: page
 title: 
 logo: logoblack
 permalink: /cv/
+ref: cv
 ---
 
 
 
-<nav class="navbarshop">
-
- <ul>
-      <li class="nav-item">
-        <a href="{{ site.baseurl }}/biography/">Bio</a>
-       </li>
-     
- <span aria-hidden="true" style="color: grey">|</span>
-       <li class="nav-item">
-       <a href="{{ site.baseurl }}/cv/">CV</a>
-       </li>
-  </ul>
-</nav>  
+{% include subnav-about.html %}  
 
 
 

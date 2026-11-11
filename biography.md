@@ -3,22 +3,11 @@ layout: page
 title: 
 logo: logoblack
 permalink: /biography/
+ref: biography
 ---
 
 
-<nav class="navbarshop">
-
- <ul>
-      <li class="nav-item">
-        <a href="{{ site.baseurl }}/biography/">Bio</a>
-       </li>
-     
- <span aria-hidden="true" style="color: grey">|</span>
-       <li class="nav-item">
-       <a href="{{ site.baseurl }}/cv/">CV</a>
-       </li>
-  </ul>
-</nav>
+{% include subnav-about.html %}
 
 
 <br><br>
@@ -44,7 +33,7 @@ Fam’s artistic goal is to question rather than cast judgment. -->
 Human faces and bodies have always attracted me. I find the human body fascinating in its complex system of expression and movement that varies from person to person. A big believer in the multi-dimensionality of beauty, I try to unveil its different hidden layers, showing it using different lenses. I like to explore the way in which figures express emotions through body language which can be read at a glance; bringing invisible things like human social interactions to life.
 </span> -->
 
-![RestezChezVous](/img/artist/artist1.JPG) 
+![FAM, visual artist](/img/artist/artist1.JPG) 
 
 <!-- 
 <span style="color: black;">

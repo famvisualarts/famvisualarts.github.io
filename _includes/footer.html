@@ -10,7 +10,7 @@
   </div>
   
   <div class="column">
-    <p>{{ site.description }}</p>
+    {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}<p>&copy; {{ 'now' | date: '%Y' }} FAM. {{ t.rights }}</p>
   </div>
 
 

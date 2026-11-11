@@ -1,0 +1,86 @@
+# Interface strings. Pages pick their set with page.lang (default: en, /fr/ pages: fr).
+en:
+  prefix: ""
+  html_lang: en
+  other: fr
+  other_label: FR
+  other_name: Français
+  nav:
+    works: Works
+    about: About
+    exhibitions: Exhibitions
+    contact: Contact
+    shop: Shop
+  gallery:
+    all: All
+    paintings: Paintings
+    paper: Works on paper
+  about:
+    bio: Bio
+    cv: CV
+  news:
+    upcoming: Upcoming
+    current: Current
+    past: Past
+    more: More information
+    back_to_top: Back to top
+    group: Group show
+    virtual: Virtual group show
+  contact:
+    title: Contact
+    social: Social
+  slideshow:
+    label: Selected works
+    prev: Previous work
+    next: Next work
+    show: Show work
+    of: of
+    by: by FAM
+  techniques:
+    oil_canvas: Oil on canvas
+    watercolour_paper: Watercolour on paper
+  series_404: 404 series
+  rights: All rights reserved.
+
+fr:
+  prefix: "/fr"
+  html_lang: fr
+  other: en
+  other_label: EN
+  other_name: English
+  nav:
+    works: Œuvres
+    about: À propos
+    exhibitions: Expositions
+    contact: Contact
+    shop: Boutique
+  gallery:
+    all: Tout
+    paintings: Peintures
+    paper: Œuvres sur papier
+  about:
+    bio: Bio
+    cv: CV
+  news:
+    upcoming: À venir
+    current: En cours
+    past: Passées
+    more: En savoir plus
+    back_to_top: Haut de page
+    group: Exposition collective
+    virtual: Exposition collective virtuelle
+  contact:
+    title: Contact
+    social: Réseaux
+  slideshow:
+    label: Œuvres choisies
+    prev: Œuvre précédente
+    next: Œuvre suivante
+    show: Afficher l'œuvre
+    of: sur
+    by: par FAM
+  techniques:
+    oil_canvas: Huile sur toile
+    watercolour_paper: Aquarelle sur papier
+  series_404: série 404
+  rights: Tous droits réservés.

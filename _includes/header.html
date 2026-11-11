@@ -1,18 +1,23 @@
 <link rel="stylesheet" href="{{ '/css/style.css' | prepend: site.baseurl }}" />
 <link rel="stylesheet" href="/css/webshop.css" />
 
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign lp = t.prefix %}
+{% assign alt = nil %}
+{% if page.ref %}{% assign alt = site.pages | where: "ref", page.ref | where: "lang", t.other | first %}{% endif %}
+{% if alt %}{% assign alt_url = alt.url %}{% else %}{% assign alt_url = site.data.i18n[t.other].prefix | append: "/" %}{% endif %}
 <header class="site-header">
   <nav id="navigation" class="navbar">
-    <a class="{% if page.logo %}{{ page.logo }} {% endif %}" href="{{ site.baseurl }}/"> F A M</a>
+    <a class="{% if page.logo %}{{ page.logo }} {% endif %}" href="{{ site.baseurl }}{{ lp }}/"> F A M</a>
     <div id="menu">
     <ul>
       <li class="nav-item" >
-        <a href="{{ site.baseurl }}/gallery" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">Works</a>
+        <a href="{{ site.baseurl }}{{ lp }}/gallery/" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">{{ t.nav.works }}</a>
       </li>
 
 
       <li class="nav-item" >
-        <a href="{{ site.baseurl }}/about/" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">About </a>
+        <a href="{{ site.baseurl }}{{ lp }}/about/" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">{{ t.nav.about }}</a>
         <!-- <ul class="dropdown">
             <li><a href="{{ site.baseurl }}/arts_plastiques/peinture">Peinture</a></li>
             <li><a href="{{ site.baseurl }}/arts_plastiques/dessin">Dessin</a></li>
@@ -23,15 +28,18 @@
 
 
       <li class="nav-item" >
-        <a href="{{ site.baseurl }}/news"
-          class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">Exhibitions</a>
+        <a href="{{ site.baseurl }}{{ lp }}/news/"
+          class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">{{ t.nav.exhibitions }}</a>
       </li>
 
 
 
       <li class="nav-item">
-        <a href="{{ site.baseurl }}/contact/" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">Contact
-        </a>
+        <a href="{{ site.baseurl }}{{ lp }}/contact/" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">{{ t.nav.contact }}</a>
+      </li>
+
+      <li class="nav-item lang-switch">
+        <a href="{{ site.baseurl }}{{ alt_url }}" hreflang="{{ t.other }}" lang="{{ t.other }}" title="{{ t.other_name }}" class="{% if page.menucolor %}{{ page.menucolor }} {% endif %}">{{ t.other_label }}</a>
       </li>
 
       <!-- <li class="nav-item">
