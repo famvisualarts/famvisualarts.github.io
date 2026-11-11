@@ -1,0 +1,57 @@
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign thanks = site.pages | where: "ref", "contact-thanks" | where: "lang", page.lang | first %}
+<div class="contact">
+  <form class="contact-form" action="https://formsubmit.co/{{ site.email }}" method="POST">
+    <p class="form-intro">{{ t.form.intro }}</p>
+    <input type="hidden" name="_next" value="{{ thanks.url | absolute_url }}">
+    <input type="hidden" name="_subject" value="Nouveau message depuis le site FAM">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="langue" value="{{ page.lang }}">
+    <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="visually-hidden" aria-hidden="true">
+    <div class="field">
+      <label for="cf-name">{{ t.form.name }}</label>
+      <input id="cf-name" name="nom" type="text" autocomplete="name" required>
+    </div>
+    <div class="field">
+      <label for="cf-email">{{ t.form.email }}</label>
+      <input id="cf-email" name="email" type="email" autocomplete="email" required>
+    </div>
+    <div class="field">
+      <label for="cf-topic">{{ t.form.topic }}</label>
+      <select id="cf-topic" name="objet">
+        {% for o in t.form.topics %}<option>{{ o }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="field">
+      <label for="cf-message">{{ t.form.message }}</label>
+      <textarea id="cf-message" name="message" rows="7" required></textarea>
+    </div>
+    <button type="submit" data-sending="{{ t.form.sending }}">{{ t.form.send }}</button>
+  </form>
+  <aside class="contact-direct">
+    <h2>{{ t.form.direct }}</h2>
+    <p class="contact-list">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      <a href="tel:+33782736286">+33 7 82 73 62 86</a>
+    </p>
+    <p class="contact-list">
+      <a href="https://www.instagram.com/famvisualarts" rel="noopener">Instagram</a><br>
+      <a href="https://www.facebook.com/famvisualarts" rel="noopener">Facebook</a><br>
+      <a href="https://www.behance.net/famvisualarts" rel="noopener">Behance</a>
+    </p>
+  </aside>
+</div>
+<script>
+(function () {
+  var f = document.querySelector('.contact-form'); if (!f) return;
+  var q = new URLSearchParams(location.search), work = q.get('work');
+  if (work) {
+    f.objet.selectedIndex = 0;
+    f.message.value = {{ t.form.work_prefill | jsonify }} + work + '\n\n';
+  }
+  f.addEventListener('submit', function () {
+    var b = f.querySelector('button'); b.disabled = true; b.textContent = b.dataset.sending;
+  });
+})();
+</script>
