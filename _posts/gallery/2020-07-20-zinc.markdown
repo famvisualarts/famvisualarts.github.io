@@ -1,6 +1,10 @@
 ---
 layout: post
-title:  "relax, digital painting, 2020"
+title: "Relax"
+raw_title: "relax, digital painting, 2020"
+medium: "Digital painting"
+medium_fr: "Peinture numérique"
+year: 2020
 date:   2020-07-20 17:57:21
 logo: logoblack
 preview: /img/zinc/zinc.jpg

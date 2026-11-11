@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "Unwinding, Oil on paper canva,  29,7 x 42cm, 2025"
+title: "Unwinding"
+raw_title: "Unwinding, Oil on paper canva,  29,7 x 42cm, 2025"
+medium: "Oil on paper canvas"
+medium_fr: "Huile sur papier toilé"
+dimensions: "29.7 × 42 cm"
+dimensions_fr: "29,7 × 42 cm"
+year: 2025
 date:   2025-05-06 18:58:21
 logo: logoblack
 preview: /img/paintings2025/6.jpg
@@ -8,12 +14,5 @@ category: painting
 ---
 
 
-![Picture 1](/img/paintings2025/6.jpg) 
-
---
-
-
-
-
-
+![Unwinding](/img/paintings2025/6.jpg) 
 

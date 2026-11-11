@@ -1,6 +1,10 @@
 ---
 layout: post
-title:  "le carrousel jules verne, digital painting, 2020"
+title: "Le carrousel jules verne"
+raw_title: "le carrousel jules verne, digital painting, 2020"
+medium: "Digital painting"
+medium_fr: "Peinture numérique"
+year: 2020
 date:   2021-08-13  17:59:20
 logo: logoblack
 preview: /img/Paris-LightUP-Carrousel Jules Verne-parc de la Villette.png

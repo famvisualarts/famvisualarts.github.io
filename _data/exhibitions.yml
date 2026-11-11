@@ -1,6 +1,7 @@
 # Exhibitions shown on /news/ and /fr/news/, newest first.
 # status: upcoming | current | past. image is optional.
 - status: past
+  year: 2024
   title: { en: "With love", fr: "With love" }
   dates: { en: "November 16, 2024 – January 2, 2025", fr: "Du 16 novembre 2024 au 2 janvier 2025" }
   type: group
@@ -8,6 +9,7 @@
   link: https://www.higherartgallery.com/
 
 - status: past
+  year: 2024
   title: { en: "51st Salon des artistes locaux", fr: "51ᵉ Salon des artistes locaux" }
   dates: { en: "November 30 – December 14, 2024", fr: "Du 30 novembre au 14 décembre 2024" }
   type: group
@@ -15,6 +17,7 @@
   link: https://lagraineterie.ville-houilles.fr/
 
 - status: past
+  year: 2023
   title: { en: "50th Salon des artistes locaux", fr: "50ᵉ Salon des artistes locaux" }
   dates: { en: "November 24 – December 9, 2023", fr: "Du 24 novembre au 9 décembre 2023" }
   type: group
@@ -23,6 +26,7 @@
   link: https://lagraineterie.ville-houilles.fr/news/2023/salon-des-artistes-locaux-le-palmares
 
 - status: past
+  year: 2023
   title: { en: "Décembre à Montreuil – season 2", fr: "Décembre à Montreuil – saison 2" }
   dates: { en: "December 1 – 3, 2023", fr: "Du 1er au 3 décembre 2023" }
   type: group
@@ -31,6 +35,7 @@
   link: https://www.instagram.com/la_tour_orion/
 
 - status: past
+  year: 2023
   title: { en: "International Women’s Day: Inspirational Women Artists Exhibition 2023", fr: "Journée internationale des droits des femmes : Inspirational Women Artists Exhibition 2023" }
   dates: { en: "March 10 – April 23, 2023", fr: "Du 10 mars au 23 avril 2023" }
   type: group
@@ -39,6 +44,7 @@
   link: https://aspacearts.org.uk/
 
 - status: past
+  year: 2022
   title: { en: "16th Annual Holiday Mini Art Exhibit", fr: "16th Annual Holiday Mini Art Exhibit" }
   dates: { en: "December 9, 2022 – February 6, 2023", fr: "Du 9 décembre 2022 au 6 février 2023" }
   type: group
@@ -47,6 +53,7 @@
   link: https://ghostgallery.org/
 
 - status: past
+  year: 2022
   title: { en: "49th Salon des artistes locaux", fr: "49ᵉ Salon des artistes locaux" }
   dates: { en: "November 25 – December 10, 2022", fr: "Du 25 novembre au 10 décembre 2022" }
   type: group
@@ -55,6 +62,7 @@
   link: https://lagraineterie.ville-houilles.fr/
 
 - status: past
+  year: 2022
   title: { en: "Art Boom NFT – Focus Art Fair “BOOM”", fr: "Art Boom NFT – Focus Art Fair « BOOM »" }
   dates: { en: "September 1 – 4, 2022", fr: "Du 1er au 4 septembre 2022" }
   type: group
@@ -63,6 +71,7 @@
   link: https://www.focusartfair.net/home
 
 - status: past
+  year: 2022
   title: { en: "Anonymous Drawings 2022 (Anonyme Zeichner)", fr: "Dessins anonymes 2022 (Anonyme Zeichner)" }
   dates: { en: "June 18 – August 24, 2022", fr: "Du 18 juin au 24 août 2022" }
   type: group
@@ -71,6 +80,7 @@
   link: https://galerie-im-koernerpark.de/en/exhibitions/anonyme-zeichner-2022
 
 - status: past
+  year: 2020
   title: { en: "Le Printemps d’Ornata", fr: "Le Printemps d’Ornata" }
   dates: { en: "March 28 – 29, 2020", fr: "28 et 29 mars 2020" }
   type: virtual
@@ -79,6 +89,7 @@
   link: https://eurydemaornataeditions.bigcartel.com/product/revue-ornata-n-7-precommande
 
 - status: past
+  year: 2019
   title: { en: "50th November International Painting Prize exhibition", fr: "Exposition du 50ᵉ Prix international de peinture Novembre à Vitry" }
   dates: { en: "November 16 – December 15, 2019", fr: "Du 16 novembre au 15 décembre 2019" }
   type: group

@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "rage, colored pencils on paper, 42x29.7 cm, 2021"
+title: "Rage"
+raw_title: "rage, colored pencils on paper, 42x29.7 cm, 2021"
+medium: "Colored pencils on paper"
+medium_fr: "Crayons de couleur sur papier"
+dimensions: "42 × 29.7 cm"
+dimensions_fr: "42 × 29,7 cm"
+year: 2021
 date:   2021-08-10 17:58:21
 logo: logoblack
 preview: /img/rage.jpg

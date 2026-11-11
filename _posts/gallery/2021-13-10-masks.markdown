@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "masks, colored pencils on paper,50x65cm, 2023"
+title: "Masks"
+raw_title: "masks, colored pencils on paper,50x65cm, 2023"
+medium: "Colored pencils on paper"
+medium_fr: "Crayons de couleur sur papier"
+dimensions: "50 × 65 cm"
+dimensions_fr: "50 × 65 cm"
+year: 2023
 date:   2023-07-13 20:59:42
 logo: logoblack
 preview: /img/worksonpaper/masks.png

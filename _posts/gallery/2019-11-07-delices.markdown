@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "the delights of reverie, acrylic on canva, 80x60 cm, 2019"
+title: "The delights of reverie"
+raw_title: "the delights of reverie, acrylic on canva, 80x60 cm, 2019"
+medium: "Acrylic on canvas"
+medium_fr: "Acrylique sur toile"
+dimensions: "80 × 60 cm"
+dimensions_fr: "80 × 60 cm"
+year: 2019
 date:   2019-11-11 17:58:21
 logo: logoblack
 preview: /img/delices.jpg
@@ -9,10 +15,9 @@ tagmerit: 🖼 collective exhibition at JEAN-COLLET gallery, dec 2019
 ---
 
 Collective exhibition
-![Picture 1](/img/delices.jpg) 
+![The delights of reverie](/img/delices.jpg) 
 
 
-The delights of reverie, acrylic on canva, 80x60 cm, 2019
 
 Artwork candidate for the November Painting Prize in Vitry 2019 and selected for a collective exhibition from November 16 to December 15 at the Municipal Gallery JEAN-COLLET of Vitry-sur-Seine.
 ![catalogue](/img/catalogue-vitry2019.jpg) 

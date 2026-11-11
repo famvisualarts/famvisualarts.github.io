@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "solstice, colored pencils on paper,21x29.7cm, 2023"
+title: "Solstice"
+raw_title: "solstice, colored pencils on paper,21x29.7cm, 2023"
+medium: "Colored pencils on paper"
+medium_fr: "Crayons de couleur sur papier"
+dimensions: "21 × 29.7 cm"
+dimensions_fr: "21 × 29,7 cm"
+year: 2023
 date:   2023-07-10 20:50:42
 logo: logoblack
 preview: /img/worksonpaper/solstice.png

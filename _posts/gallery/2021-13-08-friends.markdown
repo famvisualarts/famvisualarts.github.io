@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "friends, 2023"
+title: "Friends"
+raw_title: "friends, 2023"
+year: 2023
 date:   2023-07-15  19:59:30
 logo: logoblack
 preview: /img/digital2023/friends1.png

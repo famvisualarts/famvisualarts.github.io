@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "untitled, watercolor on paper,21x29.7cm, 2023"
+title: "Untitled"
+raw_title: "untitled, watercolor on paper,21x29.7cm, 2023"
+medium: "Watercolor on paper"
+medium_fr: "Aquarelle sur papier"
+dimensions: "21 × 29.7 cm"
+dimensions_fr: "21 × 29,7 cm"
+year: 2023
 date:   2023-07-10 20:50:42
 logo: logoblack
 preview: /img/worksonpaper/untitled2.png

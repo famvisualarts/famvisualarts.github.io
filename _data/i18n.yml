@@ -5,6 +5,10 @@ en:
   other: fr
   other_label: FR
   other_name: Français
+  home: home
+  menu: Menu
+  skip: Skip to content
+  artist: FAM
   nav:
     works: Works
     about: About
@@ -38,9 +42,23 @@ en:
     by: by FAM
   techniques:
     oil_canvas: Oil on canvas
-    watercolour_paper: Watercolour on paper
+    watercolour_paper: Watercolor on paper
   series_404: 404 series
   rights: All rights reserved.
+  works_title: Works
+  exhibitions_title: Exhibitions
+  about_title: About
+  contact_title: Contact
+  intro_heading: Narrative paintings about women, the body and what goes unsaid.
+  intro_text: FAM is a French painter based near Paris. Her oil paintings and watercolors build imaginary, often provocative scenes where moments of her own life become surreal or hyperrealist pastiches.
+  see_works: See all works
+  recent: Recent works
+  back_to_works: All works
+  prev_work: Previous
+  next_work: Next
+  enquire: Ask about this work
+  play: Play
+  pause: Pause
 
 fr:
   prefix: "/fr"
@@ -48,6 +66,10 @@ fr:
   other: en
   other_label: EN
   other_name: English
+  home: accueil
+  menu: Menu
+  skip: Aller au contenu
+  artist: FAM
   nav:
     works: Œuvres
     about: À propos
@@ -84,3 +106,17 @@ fr:
     watercolour_paper: Aquarelle sur papier
   series_404: série 404
   rights: Tous droits réservés.
+  works_title: Œuvres
+  exhibitions_title: Expositions
+  about_title: À propos
+  contact_title: Contact
+  intro_heading: Des peintures narratives sur les femmes, le corps et le non-dit.
+  intro_text: FAM est une artiste peintre française installée près de Paris. Ses huiles et aquarelles construisent des scènes imaginaires, souvent provocantes, où des fragments de sa vie deviennent des pastiches surréalistes ou hyperréalistes.
+  see_works: Voir toutes les œuvres
+  recent: Œuvres récentes
+  back_to_works: Toutes les œuvres
+  prev_work: Précédente
+  next_work: Suivante
+  enquire: Se renseigner sur cette œuvre
+  play: Lecture
+  pause: Pause

@@ -1,0 +1,245 @@
+/* FAM — "white wall" theme.
+   The site behaves like a gallery wall: white space, works hung large,
+   and a museum wall label (cartel) next to every work. */
+
+:root {
+  --wall: #ffffff;
+  --ink: #1f1e1c;
+  --label: #6f6a63;      /* cartel grey */
+  --hairline: #e7e3dd;
+  --mat: #f6f4f1;        /* very light mat behind thumbnails while loading */
+  --oxblood: #7a2e2e;    /* only for focus, current page, hover underline */
+
+  --serif: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
+  --sans: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+
+  --step--1: 0.8125rem;  /* 13px cartel details */
+  --step-0: 1rem;        /* 16px body */
+  --step-1: 1.25rem;     /* 20px */
+  --step-2: 1.75rem;     /* 28px page titles (mobile) */
+  --step-3: 2.5rem;      /* 40px page titles */
+
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --header-h: 4.5rem;
+  --measure: 38rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--wall);
+  color: var(--ink);
+  font: 400 var(--step-0)/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; text-decoration-color: var(--oxblood); text-underline-offset: 0.25em; }
+:focus-visible { outline: 2px solid var(--oxblood); outline-offset: 3px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: absolute; left: var(--gutter); top: -3rem; background: var(--ink); color: var(--wall); padding: .5rem 1rem; z-index: 50; }
+.skip-link:focus { top: .5rem; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: center; justify-content: space-between;
+  height: var(--header-h);
+  padding: 0 var(--gutter);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(6px);
+}
+.wordmark {
+  font: 500 1.75rem/1 var(--serif);
+  letter-spacing: 0.32em;
+  margin-right: -0.32em;
+}
+.wordmark:hover { text-decoration: none; }
+.site-nav ul { display: flex; gap: clamp(1.25rem, 2.5vw, 2.25rem); margin: 0; padding: 0; list-style: none; align-items: center; }
+.site-nav a { font-size: 0.9375rem; padding: .25rem 0; }
+.site-nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--oxblood); text-underline-offset: 0.35em; }
+.site-nav .lang-switch a { color: var(--label); font-size: var(--step--1); letter-spacing: .04em; }
+.menu-toggle { display: none; }
+
+@media (max-width: 760px) {
+  .site-header { backdrop-filter: none; background: var(--wall); }
+  .menu-toggle {
+    display: inline-flex; align-items: center; gap: .5rem;
+    background: none; border: 0; padding: .5rem 0; font: inherit; color: inherit; cursor: pointer;
+  }
+  .menu-toggle .bars, .menu-toggle .bars::before, .menu-toggle .bars::after {
+    display: block; width: 22px; height: 1.5px; background: currentColor; position: relative; transition: transform .2s;
+  }
+  .menu-toggle .bars::before, .menu-toggle .bars::after { content: ""; position: absolute; left: 0; }
+  .menu-toggle .bars::before { top: -7px; }
+  .menu-toggle .bars::after { top: 7px; }
+  .menu-open .menu-toggle .bars { background: transparent; }
+  .menu-open .menu-toggle .bars::before { transform: translateY(7px) rotate(45deg); }
+  .menu-open .menu-toggle .bars::after { transform: translateY(-7px) rotate(-45deg); }
+
+  .site-nav {
+    position: fixed; inset: var(--header-h) 0 0 0;
+    background: var(--wall);
+    padding: 2rem var(--gutter);
+    visibility: hidden; opacity: 0; transition: opacity .2s, visibility .2s;
+  }
+  .menu-open .site-nav { visibility: visible; opacity: 1; }
+  .menu-open { overflow: hidden; }
+  .site-nav ul { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
+  .site-nav a { font: 400 var(--step-2)/1.2 var(--serif); }
+  .site-nav .lang-switch { margin-top: 1rem; }
+  .site-nav .lang-switch a { font: 400 var(--step-0) var(--sans); }
+}
+
+/* ---------- Layout ---------- */
+main { min-height: calc(100vh - var(--header-h) - 10rem); }
+.wrap { padding: 0 var(--gutter); }
+.page-head { padding: clamp(2rem, 6vw, 4.5rem) var(--gutter) clamp(1.5rem, 3vw, 2.5rem); }
+.page-title { font: 400 var(--step-3)/1.1 var(--serif); margin: 0; }
+@media (max-width: 760px) { .page-title { font-size: var(--step-2); } }
+
+.subnav ul { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
+.subnav a { color: var(--label); font-size: 0.9375rem; }
+.subnav a[aria-current="page"] { color: var(--ink); text-decoration: underline; text-decoration-color: var(--oxblood); text-underline-offset: .35em; }
+
+/* ---------- Cartel (museum wall label) ---------- */
+.cartel { font-size: var(--step--1); line-height: 1.45; color: var(--label); }
+.cartel .artist { color: var(--ink); font-weight: 600; }
+.cartel .work-title { display: block; color: var(--ink); font: italic 400 1.0625rem/1.3 var(--serif); margin: .1rem 0 .15rem; }
+.cartel .medium-alt { display: block; }
+
+/* ---------- Home: one work on the wall ---------- */
+.wall {
+  position: relative;
+  height: calc(100svh - var(--header-h));
+  min-height: 26rem;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  padding: 1rem var(--gutter) 1.75rem;
+}
+.wall-stage { position: relative; min-height: 0; }
+.wall-work {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transition: opacity .9s ease;
+  pointer-events: none;
+}
+.wall-work.is-current { opacity: 1; pointer-events: auto; }
+.wall-work a { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+.wall-work img {
+  max-height: 100%; max-width: min(100%, 72rem);
+  width: auto; height: auto; object-fit: contain;
+  box-shadow: 0 1px 2px rgba(31, 30, 28, .08), 0 12px 28px -18px rgba(31, 30, 28, .35);
+}
+.wall-foot { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; padding-top: 1.25rem; }
+.wall-foot .cartel { max-width: 22rem; min-height: 4.2em; }
+.wall-controls { display: flex; align-items: center; gap: 1.25rem; color: var(--label); font-size: var(--step--1); font-variant-numeric: tabular-nums; }
+.wall-controls button {
+  background: none; border: 1px solid var(--hairline); color: var(--ink);
+  width: 2.5rem; height: 2.5rem; border-radius: 50%; cursor: pointer; font-size: 1rem; line-height: 1;
+}
+.wall-controls button:hover { border-color: var(--ink); }
+.wall-hit { position: absolute; top: 0; bottom: 0; width: 50%; z-index: 2; background: none; border: 0; padding: 0; }
+.wall-hit.prev { left: 0; cursor: w-resize; }
+.wall-hit.next { right: 0; cursor: e-resize; }
+@media (prefers-reduced-motion: reduce) { .wall-work { transition: none; } }
+@media (max-width: 760px) {
+  .wall { height: auto; min-height: 0; padding-top: .5rem; }
+  .wall-stage { height: 62svh; }
+  .wall-foot { flex-direction: column; align-items: stretch; gap: 1rem; }
+  .wall-controls { justify-content: space-between; }
+}
+
+.home-intro {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 2rem;
+  padding: clamp(3rem, 8vw, 6rem) var(--gutter) clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--hairline);
+}
+.home-intro h2 { font: 400 var(--step-2)/1.2 var(--serif); margin: 0; }
+.home-intro p { margin: 0 0 1rem; max-width: var(--measure); }
+.text-link { border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.text-link:hover { text-decoration: none; border-color: var(--oxblood); }
+@media (max-width: 760px) { .home-intro { grid-template-columns: 1fr; gap: 1rem; } }
+
+/* ---------- Works grid (masonry by columns) ---------- */
+.works { columns: 3 18rem; column-gap: clamp(1.5rem, 3vw, 3rem); padding: 0 var(--gutter) 4rem; }
+.work-card { break-inside: avoid; margin: 0 0 clamp(2rem, 4vw, 3.25rem); }
+.work-card a { display: block; }
+.work-card a:hover { text-decoration: none; }
+.work-card .frame { background: var(--mat); }
+.work-card img { width: 100%; transition: opacity .25s; }
+.work-card a:hover img { opacity: .88; }
+.work-card .cartel { margin-top: .75rem; }
+.work-card a:hover .work-title { text-decoration: underline; text-decoration-color: var(--oxblood); text-underline-offset: .2em; }
+@media (max-width: 520px) { .works { columns: 1; } }
+
+/* ---------- Single work ---------- */
+.work {
+  display: grid; grid-template-columns: minmax(0, 1fr) 17rem; gap: clamp(1.5rem, 4vw, 4rem);
+  padding: clamp(1.5rem, 4vw, 3rem) var(--gutter) 4rem; align-items: start;
+}
+.work-images { display: grid; gap: 2rem; }
+.work-images img { margin: 0 auto; max-height: calc(100svh - var(--header-h) - 4rem); width: auto; }
+.work-aside { position: sticky; top: calc(var(--header-h) + 1.5rem); }
+.work-aside .cartel .work-title { font-size: 1.5rem; margin: .25rem 0 .5rem; }
+.work-pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--hairline); font-size: var(--step--1); }
+.work-pager a { color: var(--label); }
+.work-pager a:hover { color: var(--ink); }
+.work-back { display: inline-block; margin-top: 1.25rem; font-size: var(--step--1); color: var(--label); }
+.work-text { margin-top: 1.5rem; font-size: .9375rem; }
+@media (max-width: 760px) {
+  .work { grid-template-columns: 1fr; }
+  .work-aside { position: static; }
+  .work-images img { max-height: none; width: 100%; }
+}
+
+/* ---------- Text pages (bio, CV, contact) ---------- */
+.prose { padding: 0 var(--gutter) 5rem; max-width: calc(var(--measure) + 2 * var(--gutter)); }
+.prose p, .prose li { max-width: var(--measure); }
+.prose h2 { font: 400 var(--step-1)/1.3 var(--serif); margin: 3rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--hairline); }
+.prose h3 { font: 600 .9375rem/1.4 var(--sans); margin: 1.75rem 0 .5rem; }
+.prose ul { padding-left: 0; list-style: none; }
+.prose li { margin: 0 0 .9rem; }
+.prose .meta { display: block; color: var(--label); font-size: var(--step--1); }
+.prose a { border-bottom: 1px solid var(--hairline); }
+.prose a:hover { text-decoration: none; border-color: var(--oxblood); }
+.bio { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: clamp(2rem, 5vw, 5rem); padding: 0 var(--gutter) 5rem; align-items: start; }
+.bio .portrait { position: sticky; top: calc(var(--header-h) + 1.5rem); }
+.bio .lede { font: 400 var(--step-1)/1.45 var(--serif); margin-top: 0; }
+.bio p { max-width: var(--measure); }
+@media (max-width: 760px) { .bio { grid-template-columns: 1fr; } .bio .portrait { position: static; } }
+.contact-list { font: 400 var(--step-1)/1.6 var(--serif); }
+.contact-list a { border-bottom: 1px solid var(--hairline); }
+
+/* ---------- Exhibitions ---------- */
+.expos { padding: 0 var(--gutter) 5rem; }
+.expo-year { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 1.5rem; border-top: 1px solid var(--hairline); padding: 1.5rem 0; }
+.expo-year > h2 { font: 400 var(--step-1)/1.2 var(--serif); margin: 0; }
+.expo { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 1.25rem; margin-bottom: 1.75rem; }
+.expo:last-child { margin-bottom: 0; }
+.expo .thumb { aspect-ratio: 1; background: var(--mat); overflow: hidden; }
+.expo .thumb img { width: 100%; height: 100%; object-fit: cover; }
+.expo h3 { font: italic 400 1.125rem/1.35 var(--serif); margin: 0 0 .25rem; }
+.expo p { margin: 0; color: var(--label); font-size: .9375rem; }
+.expo a.more { display: inline-block; margin-top: .4rem; font-size: var(--step--1); border-bottom: 1px solid var(--hairline); }
+.expo a.more:hover { text-decoration: none; border-color: var(--oxblood); }
+@media (max-width: 760px) {
+  .expo-year { grid-template-columns: 1fr; gap: 1rem; }
+  .expo { grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1rem; }
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem;
+  padding: 2rem var(--gutter) 2.5rem; border-top: 1px solid var(--hairline);
+  font-size: var(--step--1); color: var(--label);
+}
+.site-footer ul { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+.site-footer a:hover { color: var(--ink); }
+
+.work-images p { margin: 0 auto; max-width: var(--measure); }
+.work-images blockquote { margin: 0; color: var(--label); }
+.work-images p:has(img) { max-width: none; }
+.work-images img { margin-left: auto; margin-right: auto; }
+.expo .thumb:empty { background: none; }

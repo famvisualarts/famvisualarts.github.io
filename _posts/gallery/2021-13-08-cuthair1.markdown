@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Women, freedom, resistance ✂️💇‍♀️, 2023"
+title: "Women, freedom, resistance ✂️💇‍♀️"
+raw_title: "Women, freedom, resistance ✂️💇‍♀️, 2023"
+year: 2023
 date:   2023-04-14  19:59:30
 logo: logoblack
 preview: /img/digital2023/cuthair1.jpg

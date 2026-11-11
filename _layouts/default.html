@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
-
   {% include head.html %}
-
-  <body class="{% if page.style %}{{ page.style }} {% endif %}">
-
-    <main class="wrapper">
-      
-      {% include header.html %}
-
-      <div class="container">
-        {{ content }}
-
-        {% unless page.style %}
-        {% include footer.html %}
-        {% endunless %}
-      </div>
-    
+  <body class="{{ page.body_class }}"{% if page.layout == "post" %} data-langless{% endif %}>
+    {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+    <a class="skip-link" href="#main">{{ t.skip }}</a>
+    {% include header.html %}
+    <main id="main">
+      {{ content }}
     </main>
-
-    {% include scripts.html %}
-   
-    
+    {% include footer.html %}
+    <script>
+      (function () {
+        try {
+          if (!document.body.hasAttribute('data-langless')) localStorage.setItem('famLang', document.documentElement.lang);
+          else if (localStorage.getItem('famLang') === 'fr') {
+            document.documentElement.lang = 'fr';
+            document.querySelectorAll('[data-fr-href]').forEach(function (a) { a.href = a.dataset.frHref; if (a.dataset.frText) a.textContent = a.dataset.frText; });
+            document.querySelectorAll('[data-fr]').forEach(function (el) { el.textContent = el.dataset.fr; });
+            var ls = document.querySelector('.lang-switch a'); if (ls) { ls.textContent = 'EN'; ls.href = location.pathname; ls.addEventListener('click', function () { localStorage.setItem('famLang', 'en'); }); }
+          }
+        } catch (e) {}
+        var b = document.documentElement, btn = document.querySelector('.menu-toggle');
+        if (btn) btn.addEventListener('click', function () {
+          var open = b.classList.toggle('menu-open');
+          btn.setAttribute('aria-expanded', open);
+        });
+      })();
+    </script>
   </body>
-
 </html>

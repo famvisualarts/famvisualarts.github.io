@@ -1,19 +1,11 @@
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="{{ site.baseurl }}/icon.ico">
-	<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-
-    <script src="https://www.paypal.com/sdk/js?client-id=ASDIqMCrwDzb9zhoDC2m3uKCbJMrLSk83EoKMMGTC9HTmK5xCfDZNdKWl2da82PWA4qa25maKEPHHmqX&currency=EUR&locale=fr_FR"></script>
-    {% include styles.html %}
-
+    <link rel="icon" href="{{ '/icon.ico' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Instrument+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="{{ '/css/fam.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     {% seo %}
     {% include hreflang.html %}
-
-    {% include meta.html %}
-
 </head>

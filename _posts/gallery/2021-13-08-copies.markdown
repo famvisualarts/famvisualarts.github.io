@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "copies, pencils colors on paper, 29.7x21 cm, 2021"
+title: "Copies"
+raw_title: "copies, pencils colors on paper, 29.7x21 cm, 2021"
+medium: "Colored pencils on paper"
+medium_fr: "Crayons de couleur sur papier"
+dimensions: "29.7 × 21 cm"
+dimensions_fr: "29,7 × 21 cm"
+year: 2021
 date:   2021-09-14  19:59:30
 logo: logoblack
 preview: /img/copies.png
@@ -9,6 +15,5 @@ category: drawing
 
 ![copies](/img/copies.png) 
 
-copies, pencils colors on paper, 29.7x21 cm, 2021
 
 

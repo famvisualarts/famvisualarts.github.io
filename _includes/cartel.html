@@ -1,0 +1,11 @@
+{%- comment -%} include.w = a post (or slideshow item resolved to fields); include.heading = h1/h2/p {%- endcomment -%}
+{%- assign w = include.w -%}
+{%- assign l = page.lang | default: "en" -%}
+{%- if l == "fr" -%}{%- assign med = w.medium_fr | default: w.medium -%}{%- assign dim = w.dimensions_fr | default: w.dimensions -%}{%- else -%}{%- assign med = w.medium -%}{%- assign dim = w.dimensions -%}{%- endif -%}
+{%- assign tag = include.tag | default: "span" -%}
+<div class="cartel">
+  {% unless include.noartist %}<span class="artist">FAM</span>{% endunless %}
+  <{{ tag }} class="work-title">{{ w.title }}{% if w.year %}, <span style="font-style:normal">{{ w.year }}</span>{% endif %}</{{ tag }}>
+  {% if med %}<span>{{ med }}</span>{% endif %}{% if dim %}<br><span>{{ dim }}</span>{% endif %}
+  {% if w.series == "404" %}<br><span>{{ site.data.i18n[l].series_404 }}</span>{% endif %}
+</div>
