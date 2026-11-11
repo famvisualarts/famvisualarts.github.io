@@ -1,8 +1,11 @@
 # Site settings
-title: contact
+title: FAM
 email: famartwork@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  ©2023 FAM, All rights reserved.
+description: >-
+  FAM, contemporary painter. Oil paintings, watercolours and the 404 series:
+  works, exhibitions and contact.
+locale: en_US
+copyright: "FAM. All rights reserved."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://famvisualarts.github.io" # "https://famofficially.github.io" #"https://farah-cherif.github.io" # the base hostname & protocol for your site
 facebook_username: famvisualarts
