@@ -8,7 +8,9 @@ permalink: /
 ref: home
 ---
 
+<div class="home-slideshow">
 {% include slideshowimages.html %}
+</div>
 
 {% include footer.html %}
 <!-- </html> -->

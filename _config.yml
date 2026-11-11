@@ -40,3 +40,4 @@ defaults:
   values:
     lang: fr
     locale: fr_FR
+    description: "FAM, artiste peintre contemporaine. Peintures à l'huile, aquarelles et série 404 : œuvres, expositions et contact."
