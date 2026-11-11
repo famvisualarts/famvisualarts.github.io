@@ -11,6 +11,7 @@ date:   2025-05-02 13:58:21
 logo: logoblack
 preview: /img/paintings2025/naurel.jpg
 category: painting
+price: 800
 ---
 
 

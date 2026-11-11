@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /shop/thanks/
+ref: shop-thanks
+section: shop
+sitemap: false
+---
+{% assign t = site.data.i18n[page.lang] %}
+<header class="page-head"><h1 class="page-title">{{ t.shop.thanks_title }}</h1></header>
+<div class="prose">
+  <p>{{ t.shop.thanks_text }}</p>
+  <p><a class="text-link" href="{{ t.prefix | append: '/gallery/' | relative_url }}">{{ t.form.back }}</a></p>
+</div>

@@ -11,6 +11,7 @@ date:   2023-09-6 13:48:22
 logo: logoblack
 preview: /img/paintings2024/Fuck_around.jpg
 category: painting
+price: 800
 ---
 
 

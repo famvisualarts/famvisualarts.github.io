@@ -11,6 +11,7 @@ date:   2025-05-05 18:58:21
 logo: logoblack
 preview: /img/paintings2025/5.jpg
 category: painting
+price: 350
 ---
 
 

@@ -13,6 +13,7 @@ logo: logoblack
 preview: /img/paintings2023/p4/p41.jpg
 category: painting
 
+price: 1000
 ---
 
 
