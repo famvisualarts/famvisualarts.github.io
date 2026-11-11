@@ -19,6 +19,20 @@ permalink: pretty
 #theme ci dessous mis en commebtaire car erreur de lancer jekyll
 #theme: jekyll-theme-cayman
 
+exclude:
+  - TODELET-illustrations.md
+  - TODELET-illustrations_jeunesse.md
+  - TODELETE-biographie.md
+  - TODELETE-demarche.md
+  - "other-posts not published yet"
+  - "pending_post_to post_later"
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - urban.gemspec
+  - vendor
+
 collections:
   products:
     title: Products

@@ -1,6 +1,13 @@
 ---
 layout: post
-title:  "faces series, oil on canvas paper, 24x33cm, 2023"
+title: "Faces"
+raw_title: "faces series, oil on canvas paper, 24x33cm, 2023"
+medium: "Oil on canvas paper"
+medium_fr: "Huile sur papier toilé"
+dimensions: "24 × 33 cm"
+dimensions_fr: "24 × 33 cm"
+year: 2023
+series: "faces"
 date:   2023-07-14 17:58:19
 logo: logoblack
 preview: /img/worksonpaper/faces2.png

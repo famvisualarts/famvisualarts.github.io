@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "Alone, charcoal on paper, 29.7x21 cm, 2021"
+title: "Alone"
+raw_title: "Alone, charcoal on paper, 29.7x21 cm, 2021"
+medium: "Charcoal on paper"
+medium_fr: "Fusain sur papier"
+dimensions: "29.7 × 21 cm"
+dimensions_fr: "29,7 × 21 cm"
+year: 2021
 date:   2021-09-10 17:53:21
 logo: logoblack
 preview: /img/AnonymousDrawing.jpg

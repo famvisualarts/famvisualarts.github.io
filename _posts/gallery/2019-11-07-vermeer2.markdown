@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "music class, acrylic on canva,80x60 cm, 2018."
+title: "Music class"
+raw_title: "music class, acrylic on canva,80x60 cm, 2018."
+medium: "Acrylic on canvas"
+medium_fr: "Acrylique sur toile"
+dimensions: "80 × 60 cm"
+dimensions_fr: "80 × 60 cm"
+year: 2018
 date:   2019-11-08 19:57:21
 logo: logoblack
 preview: /img/vermeer2.jpg
@@ -8,8 +14,7 @@ category: /
 tagmerit: 🔥 Sold out
 ---
 
-![Picture 1](/img/vermeer2.jpg) 
+![Music class](/img/vermeer2.jpg) 
 
 
-music class, acrylic on canva,80x60 cm, 2018.
 

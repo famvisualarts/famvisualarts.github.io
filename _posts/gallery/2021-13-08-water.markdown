@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Keep one's head above water, 2023"
+title: "Keep one's head above water"
+raw_title: "Keep one's head above water, 2023"
+year: 2023
 date:   2023-07-12  19:59:30
 logo: logoblack
 preview: /img/digital2023/water.jpg

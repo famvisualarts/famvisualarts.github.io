@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "les tulipes, Oil on canva, 46x55 cm, 2023"
+title: "Les tulipes"
+raw_title: "les tulipes, Oil on canva, 46x55 cm, 2023"
+medium: "Oil on canvas"
+medium_fr: "Huile sur toile"
+dimensions: "46 × 55 cm"
+dimensions_fr: "46 × 55 cm"
+year: 2023
 date:   2023-09-02 13:58:21
 logo: logoblack
 preview: /img/paintings2024/tulipes.jpg
@@ -8,12 +14,5 @@ category: painting
 ---
 
 
-![Picture 1](/img/paintings2024/tulipes.jpg) 
-
---
-
-
-
-
-
+![Les tulipes](/img/paintings2024/tulipes.jpg) 
 

@@ -1,8 +1,26 @@
 ---
 layout: default
-style: logoblack
+permalink: /
+ref: home
+body_class: home
 ---
+{% assign t = site.data.i18n[page.lang] %}
+<div>
+{% include wall.html %}
+</div>
 
-{% include preview.html %}
+<section class="home-intro">
+  <h2>{{ t.intro_heading }}</h2>
+  <div>
+    <p>{{ t.intro_text }}</p>
+    <p><a class="text-link" href="{{ t.prefix | append: '/about/' | relative_url }}">{{ t.nav.about }}</a></p>
+  </div>
+</section>
 
-
+<header class="page-head" style="padding-top:0">
+  <h2 class="page-title" style="font-size:var(--step-2)">{{ t.recent }}</h2>
+</header>
+<div>
+{% include works-grid.html categories="painting" limit=6 %}
+</div>
+<p class="wrap" style="margin:-1rem 0 4rem"><a class="text-link" href="{{ t.prefix | append: '/gallery/' | relative_url }}">{{ t.see_works }}</a></p>

@@ -1,6 +1,11 @@
 ---
 layout: post
-title: restez chez vous, digital painting#NFT, 2020
+title: "Restez chez vous"
+raw_title: "restez chez vous, digital painting#NFT, 2020"
+medium: "Digital painting"
+medium_fr: "Peinture numérique"
+year: 2020
+nft: true
 date:   2020-03-25 16:00:21
 logo: logoblack
 preview: /img/restez-chez-vous.jpg

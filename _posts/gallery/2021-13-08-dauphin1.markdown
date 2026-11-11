@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "dolphins are the.rapists🐬, 2023"
+title: "Dolphins are the.rapists🐬"
+raw_title: "dolphins are the.rapists🐬, 2023"
+year: 2023
 date:   2023-04-14  19:59:30
 logo: logoblack
 preview: /img/digital2023/dauphin1.jpg

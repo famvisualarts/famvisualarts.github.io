@@ -1,10 +1,7 @@
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
-{% assign a_bio = site.pages | where: "ref", "biography" | where: "lang", page.lang | first %}
+{% assign a_bio = site.pages | where: "ref", "about" | where: "lang", page.lang | first %}
 {% assign a_cv = site.pages | where: "ref", "cv" | where: "lang", page.lang | first %}
-<nav class="navbarshop">
-  <ul>
-    <li class="nav-item"><a href="{{ a_bio.url | relative_url }}">{{ t.about.bio }}</a></li>
-    <span aria-hidden="true" style="color: grey">|</span>
-    <li class="nav-item"><a href="{{ a_cv.url | relative_url }}">{{ t.about.cv }}</a></li>
-  </ul>
-</nav>
+<nav class="subnav" aria-label="{{ t.about_title }}"><ul>
+  <li><a href="{{ a_bio.url | relative_url }}"{% if page.ref == "about" or page.ref == "biography" %} aria-current="page"{% endif %}>{{ t.about.bio }}</a></li>
+  <li><a href="{{ a_cv.url | relative_url }}"{% if page.ref == "cv" %} aria-current="page"{% endif %}>{{ t.about.cv }}</a></li>
+</ul></nav>

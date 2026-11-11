@@ -1,6 +1,10 @@
 ---
 layout: post
-title:  "dream house, photo bashing, 2020"
+title: "Dream house"
+raw_title: "dream house, photo bashing, 2020"
+medium: "Photo bashing"
+medium_fr: "Photobashing"
+year: 2020
 date:   2020-12-26 17:56:21
 logo: logoblack
 preview: /img/dreamhouse.jpg

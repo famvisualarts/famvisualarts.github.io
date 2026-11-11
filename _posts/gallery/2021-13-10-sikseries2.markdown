@@ -1,6 +1,13 @@
 ---
 layout: post
-title:  "sik series, oil on medical leaflet,16x46cm, 2023"
+title: "Sik"
+raw_title: "sik series, oil on medical leaflet,16x46cm, 2023"
+medium: "Oil on medical leaflet"
+medium_fr: "Huile sur notice médicale"
+dimensions: "16 × 46 cm"
+dimensions_fr: "16 × 46 cm"
+year: 2023
+series: "sik"
 date:   2023-07-11 20:50:42
 logo: logoblack
 preview: /img/worksonpaper/sikseries2.png
@@ -9,7 +16,6 @@ category: drawing
 
 ![sik](/img/worksonpaper/sikseries2.png) 
 
-sik series, oil on medical leaflet,16x46cm, 2023
 
 The artistic series "Sik" was born from my desire to capture a period of my life marked by countless health challenges, from the most serious to the most minor, and an abundance of medications. In this series, medical notices become the medium through which I can express my state of mind and emotions during these extremely difficult times. Each of my creations in the "Sik" series encapsulates the essence of my personal struggle against adversity and bears witness to my resilience in the face of these trials. Medical notices, typically devoid of emotion, transform into powerful means of expressing the emotional highs and lows as well as the inner turmoil I have experienced.
 

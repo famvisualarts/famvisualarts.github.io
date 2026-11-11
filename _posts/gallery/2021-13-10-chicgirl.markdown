@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "untitled, watercolor on paper,50x65cm,  2022"
+title: "Untitled"
+raw_title: "untitled, watercolor on paper,50x65cm,  2022"
+medium: "Watercolor on paper"
+medium_fr: "Aquarelle sur papier"
+dimensions: "50 × 65 cm"
+dimensions_fr: "50 × 65 cm"
+year: 2022
 date:   2023-07-14 17:58:19
 logo: logoblack
 preview: /img/worksonpaper/chicgirl.png

@@ -1,6 +1,13 @@
 ---
 layout: post
-title:  "reset - 404 series, oil on canva, 92x73 cm, 2023"
+title: "Reset"
+raw_title: "reset - 404 series, oil on canva, 92x73 cm, 2023"
+medium: "Oil on canvas"
+medium_fr: "Huile sur toile"
+dimensions: "92 × 73 cm"
+dimensions_fr: "92 × 73 cm"
+year: 2023
+series: "404"
 date:   2023-08-08 13:58:21
 logo: logoblack
 preview: /img/paintings2023/p4/p41.jpg
@@ -9,10 +16,9 @@ category: painting
 ---
 
 
-reset - 404 series, Oil on canva, 92x73 cm, 2023
 
 
-![Picture 1](/img/paintings2023/p4/p41.jpg) 
+![Reset](/img/paintings2023/p4/p41.jpg) 
 
 Life's greatest battles are often fought by those who had the audacity to hit 'reset' and started from the void of 'less than zero'. 
 

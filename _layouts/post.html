@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-<div class="post">
-  <div class="post-nav">
-    {% if page.next.url %}
-      <a class="nav-item" href="{{ page.next.url | prepend: site.baseurl }}">&laquo; Prev</a>
-    {% endif %}
-    {% if page.previous.url %}
-      <a class="nav-item" href="{{ page.previous.url | prepend: site.baseurl }}">Next &raquo;</a>
-    {% endif %}
-  </div>
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign gal = site.pages | where: "ref", "gallery" | where: "lang", page.lang | first %}
+<article class="work">
+  <div class="work-images">
     {{ content }}
-  </article>
-
-</div>
+  </div>
+  <aside class="work-aside">
+    {% include cartel.html w=page tag="h1" %}
+    {% if page.medium_fr %}<p class="cartel" lang="fr" style="margin:.5rem 0 0">{{ page.medium_fr }}{% if page.dimensions_fr %}<br>{{ page.dimensions_fr }}{% endif %}</p>{% endif %}
+    {% if page.description %}<p class="work-text">{{ page.description }}</p>{% endif %}
+    <p class="work-text"><a class="text-link" href="mailto:{{ site.email }}?subject={{ page.title | append: ', ' | append: page.year | uri_escape }}"><span data-fr="{{ site.data.i18n.fr.enquire }}">{{ t.enquire }}</span></a></p>
+    <nav class="work-pager" aria-label="{{ t.works_title }}">
+      {% if page.next.url %}<a href="{{ page.next.url | relative_url }}" rel="prev">&#8592; <span data-fr="{{ site.data.i18n.fr.prev_work }}">{{ t.prev_work }}</span></a>{% else %}<span></span>{% endif %}
+      {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}" rel="next"><span data-fr="{{ site.data.i18n.fr.next_work }}">{{ t.next_work }}</span> &#8594;</a>{% endif %}
+    </nav>
+    <a class="work-back" href="{{ gal.url | relative_url }}" data-fr-href="{{ '/fr/gallery/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.back_to_works }}">{{ t.back_to_works }}</a>
+  </aside>
+</article>

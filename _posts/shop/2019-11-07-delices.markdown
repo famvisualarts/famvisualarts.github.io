@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "the delights of reverie, acrylic on canva, 80x60 cm, 2019"
+title: "The delights of reverie"
+raw_title: "the delights of reverie, acrylic on canva, 80x60 cm, 2019"
+medium: "Acrylic on canvas"
+medium_fr: "Acrylique sur toile"
+dimensions: "80 × 60 cm"
+dimensions_fr: "80 × 60 cm"
+year: 2019
 date:   2019-11-11 17:58:21
 preview: /img/delices.jpg
 category: shoporiginal
@@ -8,10 +14,9 @@ price: 320
 description: the delights of reverie, acrylic on canva, 80x60 cm, 2019
 ---
 
-![Picture 1](/img/delices.jpg) 
+![The delights of reverie](/img/delices.jpg) 
 
 
-The delights of reverie, acrylic on canva, 80x60 cm, 2019
 
 
 

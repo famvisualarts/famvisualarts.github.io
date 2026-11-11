@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "racine, watercolor on paper,15x15cm, 2023"
+title: "Racine"
+raw_title: "racine, watercolor on paper,15x15cm, 2023"
+medium: "Watercolor on paper"
+medium_fr: "Aquarelle sur papier"
+dimensions: "15 × 15 cm"
+dimensions_fr: "15 × 15 cm"
+year: 2023
 date:   2023-07-11 20:50:42
 logo: logoblack
 preview: /img/worksonpaper/racine.png

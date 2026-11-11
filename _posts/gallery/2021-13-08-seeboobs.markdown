@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "mr boobs, 2023"
+title: "Mr boobs"
+raw_title: "mr boobs, 2023"
+year: 2023
 date:   2023-04-14  19:59:30
 logo: logoblack
 preview: /img/digital2023/seeboobs1.jpg

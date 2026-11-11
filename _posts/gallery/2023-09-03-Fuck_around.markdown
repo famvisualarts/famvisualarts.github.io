@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "Fuck around, Oil on canva, 46x55 cm, 2024"
+title: "Fuck around"
+raw_title: "Fuck around, Oil on canva, 46x55 cm, 2024"
+medium: "Oil on canvas"
+medium_fr: "Huile sur toile"
+dimensions: "46 × 55 cm"
+dimensions_fr: "46 × 55 cm"
+year: 2024
 date:   2023-09-6 13:48:22
 logo: logoblack
 preview: /img/paintings2024/Fuck_around.jpg
@@ -8,11 +14,5 @@ category: painting
 ---
 
 
-![Picture 1](/img/paintings2024/Fuck_around.jpg) 
-
---
-
-
-
-
+![Fuck around](/img/paintings2024/Fuck_around.jpg) 
 

@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "The fall, Oil on recycled canvas fragments, 44x41 cm, 2024"
+title: "The fall"
+raw_title: "The fall, Oil on recycled canvas fragments, 44x41 cm, 2024"
+medium: "Oil on recycled canvas fragments"
+medium_fr: "Huile sur fragments de toile recyclée"
+dimensions: "44 × 41 cm"
+dimensions_fr: "44 × 41 cm"
+year: 2024
 date:   2023-09-8 13:58:22
 logo: logoblack
 preview: /img/paintings2024/chute.JPG
@@ -8,9 +14,7 @@ category: drawing
 ---
 
 
-![Picture 1](/img/paintings2024/chute.JPG) 
-
---
+![The fall](/img/paintings2024/chute.JPG) 
 
 ![detail](/img/paintings2024/chute1.JPG) 
 

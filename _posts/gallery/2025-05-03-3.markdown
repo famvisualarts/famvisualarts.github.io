@@ -1,6 +1,12 @@
 ---
 layout: post
-title:  "Red, Oil on paper canva,  29,7 x 42cm, 2025"
+title: "Red"
+raw_title: "Red, Oil on paper canva,  29,7 x 42cm, 2025"
+medium: "Oil on paper canvas"
+medium_fr: "Huile sur papier toilé"
+dimensions: "29.7 × 42 cm"
+dimensions_fr: "29,7 × 42 cm"
+year: 2025
 date:   2025-05-04 15:58:21
 logo: logoblack
 preview: /img/paintings2025/3.jpg
@@ -8,12 +14,5 @@ category: painting
 ---
 
 
-![Picture 1](/img/paintings2025/3.jpg) 
-
---
-
-
-
-
-
+![Red](/img/paintings2025/3.jpg) 
 
