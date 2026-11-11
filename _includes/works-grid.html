@@ -1,0 +1,22 @@
+{%- comment -%} Usage: {% include works-grid.html categories="painting,drawing" %} {%- endcomment -%}
+{% assign cats = include.categories | split: "," %}
+<div>
+{% for post in site.posts %}
+{% if cats contains post.category %}
+    {% cycle 'add row' : '<div class="row">', '', '' %}
+        <div class="column column-33">
+            <div class="preview-panel">
+                <a href="{{ post.url | relative_url }}">
+                    <img src="{{ post.preview }}" alt="{{ post.title | escape }}" loading="lazy">
+                </a>
+                <div class="post-title">{{ post.title }}</div>
+                {% if post.tagmerit %}
+                <span class="tag" style="font-size: 9px;">{{ post.tagmerit }}</span>
+                {% endif %}
+            </div>
+        </div>
+{% cycle 'end row' : '', '', '</div>' %}
+{% endif %}
+{% endfor %}
+{% cycle 'end row' : '', '</div>', '</div>' %}
+</div>

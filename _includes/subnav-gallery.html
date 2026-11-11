@@ -1,0 +1,13 @@
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign g_all = site.pages | where: "ref", "gallery" | where: "lang", page.lang | first %}
+{% assign g_paint = site.pages | where: "ref", "gallery-paintings" | where: "lang", page.lang | first %}
+{% assign g_paper = site.pages | where: "ref", "gallery-paper" | where: "lang", page.lang | first %}
+<nav class="navbarshop">
+  <ul>
+    <li class="nav-item"><a href="{{ g_all.url | relative_url }}">{{ t.gallery.all }}</a></li>
+    <span aria-hidden="true" style="color: grey">|</span>
+    <li class="nav-item"><a href="{{ g_paint.url | relative_url }}">{{ t.gallery.paintings }}</a></li>
+    <span aria-hidden="true" style="color: grey">|</span>
+    <li class="nav-item"><a href="{{ g_paper.url | relative_url }}">{{ t.gallery.paper }}</a></li>
+  </ul>
+</nav>

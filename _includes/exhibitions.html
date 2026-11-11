@@ -1,0 +1,36 @@
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+{% assign l = page.lang | default: "en" %}
+{% assign statuses = "upcoming,current,past" | split: "," %}
+{% capture subnav %}{% for s in statuses %}{% assign items = site.data.exhibitions | where: "status", s %}{% if items.size > 0 %}{{ s }},{% endif %}{% endfor %}{% endcapture %}
+{% assign present = subnav | split: "," %}
+<nav class="navbarshop">
+  <ul>
+  {% for s in present %}
+    {% unless forloop.first %}<span aria-hidden="true" style="color: grey">|</span>{% endunless %}
+    <li class="nav-item"><a href="#{{ s }}">{{ t.news[s] }}</a></li>
+  {% endfor %}
+  </ul>
+</nav>
+<br><br>
+<div id="posts">
+{% for s in present %}
+{% assign items = site.data.exhibitions | where: "status", s %}
+<section id="{{ s }}" class="exhibitions">
+  <h2 style="font-weight: bold; font-size: 1em; padding: 1rem;">{{ t.news[s] | upcase }}</h2>
+  {% for e in items %}
+  <hr class="separatornews">
+  <ul class="past">
+    <li class="nav-item thumbnailcontainer">{% if e.image %}<img src="{{ e.image | relative_url }}" alt="{{ e.title[l] | escape }}" loading="lazy">{% endif %}</li>
+    <li class="nav-item" style="vertical-align: top;">
+      <h5 style="font-weight: bold;">{{ e.title[l] }}</h5>
+      <h6>{{ e.dates[l] }}</h6>
+      <span style="font-weight: bold;">{{ t.news[e.type] }}</span><br>
+      <h6>{{ e.venue[l] }}</h6>
+      {% if e.link %}<a href="{{ e.link }}" target="_blank" rel="noopener">{{ t.news.more }}</a>{% endif %}
+    </li>
+  </ul>
+  {% endfor %}
+</section>
+<p style="text-align: right;"><a href="#top" aria-label="{{ t.news.back_to_top }}">🔝</a></p>
+{% endfor %}
+</div>

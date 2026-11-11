@@ -1,0 +1,9 @@
+{%- if page.ref -%}
+{%- assign versions = site.pages | where: "ref", page.ref -%}
+{%- for v in versions %}
+    <link rel="alternate" hreflang="{{ v.lang }}" href="{{ v.url | absolute_url }}">
+{%- if v.lang == "en" %}
+    <link rel="alternate" hreflang="x-default" href="{{ v.url | absolute_url }}">
+{%- endif -%}
+{%- endfor -%}
+{%- endif %}

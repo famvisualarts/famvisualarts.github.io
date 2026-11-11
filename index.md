@@ -5,10 +5,9 @@ logo: logoblack
 style:  homepagecover
 menucolor: menucolor
 permalink: /
+ref: home
 ---
 
-<!-- code added by my -->
-<html>
 {% include slideshowimages.html %}
 
 {% include footer.html %}
