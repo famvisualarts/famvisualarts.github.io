@@ -1,12 +1,13 @@
 {%- comment -%} {% include works-grid.html categories="painting,drawing" limit=6 %} {%- endcomment -%}
 {% assign cats = include.categories | split: "," %}
 {% assign lim = include.limit | default: 1000 %}
-{% assign n = 0 %}
+{% assign shown = 0 %}
 <div class="works">
 {% for post in site.posts %}
-  {% if cats contains post.category %}{% if include.shop and post.price == nil and post.status == nil %}{% continue %}{% endif %}
-    {% if n < lim %}
-    {% assign n = n | plus: 1 %}
+  {% assign show = false %}{% if cats contains post.category %}{% assign show = true %}{% if include.shop %}{% unless post.price or post.status %}{% assign show = false %}{% endunless %}{% endif %}{% endif %}
+  {% if show %}
+    {% if shown < lim %}
+    {% assign shown = shown | plus: 1 %}
     <figure class="work-card" style="margin:0 0 clamp(2rem,4vw,3.25rem)">
       <a href="{{ post.url | relative_url }}">
         <div class="frame">{% capture alt %}{{ post.title | escape }}{% if post.year %}, {{ post.year }}{% endif %}{% endcapture %}{% include img.html src=post.preview alt=alt sizes="(max-width: 520px) 100vw, (max-width: 1100px) 50vw, 33vw" %}</div>
