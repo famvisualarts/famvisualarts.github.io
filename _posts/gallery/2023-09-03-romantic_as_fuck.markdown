@@ -11,6 +11,7 @@ date:   2023-09-01 11:58:21
 logo: logoblack
 preview: /img/paintings2024/romantic_as_fuck.jpg
 category: painting
+price: 800
 ---
 
 

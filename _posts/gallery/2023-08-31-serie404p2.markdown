@@ -10,6 +10,9 @@ date:   2023-08-08 13:58:21
 logo: logoblack
 preview: /img/paintings2023/p2/p2show.jpg
 category: painting
+medium: "Oil on canvas"
+medium_fr: "Huile sur toile"
+price: 1000
 ---
 
 Collective exhibition

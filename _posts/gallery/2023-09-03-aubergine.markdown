@@ -11,6 +11,7 @@ date:   2023-09-02 13:58:21
 logo: logoblack
 preview: /img/paintings2024/aubergine.jpg
 category: painting
+price: 800
 ---
 
 

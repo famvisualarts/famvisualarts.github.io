@@ -11,6 +11,7 @@ date:   2023-09-7 13:58:22
 logo: logoblack
 preview: /img/paintings2024/Dogma_land.jpg
 category: painting
+price: 1000
 ---
 
 

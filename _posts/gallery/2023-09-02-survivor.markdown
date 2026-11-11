@@ -11,6 +11,7 @@ date:   2023-09-03 13:58:21
 logo: logoblack
 preview: /img/paintings2024/ovni.png
 category: painting
+price: 1000
 ---
 
 
