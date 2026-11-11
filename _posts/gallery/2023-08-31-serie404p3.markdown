@@ -15,13 +15,13 @@ category: painting
 ---
 
 Collective exhibition
-![Matriochka](/img/paintings2023/p3/p31.jpg) 
+![Matriochka](/img/web/1600/paintings2023/p3/p31.jpg) 
 
 
 
-![catalogue](/img/paintings2023/p3/p36.JPG) 
-![catalogue](/img/paintings2023/p3/p33.JPG) 
-![catalogue](/img/paintings2023/p3/p35.JPG)
-![catalogue](/img/paintings2023/p3/p32.png)  
+![catalogue](/img/web/1600/paintings2023/p3/p36.jpg) 
+![catalogue](/img/web/1600/paintings2023/p3/p33.jpg) 
+![catalogue](/img/web/1600/paintings2023/p3/p35.jpg)
+![catalogue](/img/web/1600/paintings2023/p3/p32.jpg)  
  
 

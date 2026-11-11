@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Fuck around](/img/paintings2024/Fuck_around.jpg) 
+![Fuck around](/img/web/1600/paintings2024/Fuck_around.jpg) 
 

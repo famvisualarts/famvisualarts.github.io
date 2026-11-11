@@ -10,7 +10,7 @@ preview: /img/nftcollection/fuckinglegend.jpg
 category: nft
 ---
 
-![Fuckinglegend](/img/nftcollection/fuckinglegend.jpg) 
+![Fuckinglegend](/img/web/1600/nftcollection/fuckinglegend.jpg) 
 > Fucking Legend, 2022 <br> 
 > Blockchain: Polygon <br>
 > Minted on ☞ [Opensea](https://opensea.io/collection/fuckinglegend)

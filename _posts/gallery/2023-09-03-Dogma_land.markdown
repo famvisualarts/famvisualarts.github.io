@@ -14,9 +14,9 @@ category: painting
 ---
 
 
-![Dogma Land](/img/paintings2024/Dogma_land.jpg) 
+![Dogma Land](/img/web/1600/paintings2024/Dogma_land.jpg) 
 
-![detail](/img/paintings2024/Dogma_land_.jpg) 
+![detail](/img/web/1600/paintings2024/Dogma_land_.jpg) 
 
 
 

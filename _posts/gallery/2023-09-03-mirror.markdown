@@ -14,9 +14,9 @@ category: drawing
 ---
 
 
-![Mirror](/img/paintings2024/mirror.jpg) 
+![Mirror](/img/web/1600/paintings2024/mirror.jpg) 
 
-![detail](/img/paintings2024/mirror.jpg) 
+![detail](/img/web/1600/paintings2024/mirror.jpg) 
 
 
 

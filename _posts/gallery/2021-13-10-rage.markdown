@@ -13,6 +13,6 @@ preview: /img/rage.jpg
 category: drawing
 ---
 
-![colors](/img/rage.jpg) 
+![colors](/img/web/1600/rage.jpg) 
 
 

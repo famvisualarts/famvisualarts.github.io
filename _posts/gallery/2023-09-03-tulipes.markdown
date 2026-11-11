@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Les tulipes](/img/paintings2024/tulipes.jpg) 
+![Les tulipes](/img/web/1600/paintings2024/tulipes.jpg) 
 

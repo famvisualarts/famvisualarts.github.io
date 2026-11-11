@@ -13,6 +13,6 @@ preview: /img/complicated.jpg
 category: drawing
 ---
 
-![Le carrousel Jules Verne](/img/complicated.jpg) 
+![Le carrousel Jules Verne](/img/web/1600/complicated.jpg) 
 
 

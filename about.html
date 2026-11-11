@@ -7,7 +7,7 @@ subnav: about
 section: about
 ---
 <div class="bio">
-  <div class="portrait"><img src="{{ '/img/artist/artist1.JPG' | relative_url }}" alt="FAM, visual artist"></div>
+  <div class="portrait">{% include img.html src="/img/artist/artist1.JPG" alt="FAM, visual artist" sizes="(max-width: 760px) 100vw, 40vw" eager=true %}</div>
   <div>
 <p class="lede">FAM is a French visual artist, born in 1987, who lives and works near Paris.</p>
 

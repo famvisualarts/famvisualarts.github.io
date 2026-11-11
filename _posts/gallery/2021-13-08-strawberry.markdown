@@ -11,6 +11,6 @@ preview: /img/strawberry.jpg
 category: illustration
 ---
 
-![night and light](/img/strawberry.jpg) 
+![night and light](/img/web/1600/strawberry.jpg) 
 
 

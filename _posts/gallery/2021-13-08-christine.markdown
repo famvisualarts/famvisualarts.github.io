@@ -11,6 +11,6 @@ preview: /img/christine.jpg
 category: illustration
 ---
 
-![christine lagarde](/img/christine.jpg) 
+![christine lagarde](/img/web/1600/christine.jpg) 
 
 

@@ -14,7 +14,7 @@ category: /
 tagmerit: 🔥 Sold out
 ---
 
-![Music class](/img/vermeer2.jpg) 
+![Music class](/img/web/1600/vermeer2.jpg) 
 
 
 

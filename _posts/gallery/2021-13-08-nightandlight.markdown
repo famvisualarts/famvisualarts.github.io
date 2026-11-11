@@ -11,6 +11,6 @@ preview: /img/background.jpg
 category: illustration
 ---
 
-![night and light](/img/background.jpg) 
+![night and light](/img/web/1600/background.jpg) 
 
 

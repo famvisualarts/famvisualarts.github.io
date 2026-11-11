@@ -15,7 +15,7 @@ tagmerit: 🔖 Exhibited at Galerie im Körnerpark 2022 - Berlin / Group show.
 
 ---
 
-![alone](/img/AnonymousDrawing.jpg)
+![alone](/img/web/1600/AnonymousDrawing.jpg)
 <a href="#" class="tag" style="color: blue"> Anonyme Zeichner 2022 - Berlin / Group show </a> <br>
 *From June 18 to August 24, 2022 / ANONYMOUS DRAWINGS 2022 - Galerie im Körnerpark, Germany*
 *Curated by Anke Becker*

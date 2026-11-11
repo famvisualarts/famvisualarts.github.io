@@ -11,13 +11,13 @@ preview: /img/zinc/zinc.jpg
 category: illustration
 ---
 
-![zinc](/img/zinc/zinc.jpg) 
+![zinc](/img/web/1600/zinc/zinc.jpg) 
 Zinc, Peinture digital, juillet  2020.
-![zinc](/img/zinc/1.png) 
-![zinc](/img/zinc/2.png) 
-![zinc](/img/zinc/3.png)
-![zinc](/img/zinc/4.png)
-![zinc](/img/zinc/5.png)
+![zinc](/img/web/1600/zinc/1.jpg) 
+![zinc](/img/web/1600/zinc/2.jpg) 
+![zinc](/img/web/1600/zinc/3.jpg)
+![zinc](/img/web/1600/zinc/4.jpg)
+![zinc](/img/web/1600/zinc/5.jpg)
 
 
 

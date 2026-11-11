@@ -12,7 +12,7 @@ price: 120
 description : Quand la palette de Hockney s'invite au jardin de Monet , Peinture numérique, juin 2020
 ---
 
-![When hockney's palette comes to monet's garden](/img/hockneyspring-opt.jpg) 
+![When hockney's palette comes to monet's garden](/img/web/1600/hockneyspring-opt.jpg) 
 
 
 66x44.66 cm. print

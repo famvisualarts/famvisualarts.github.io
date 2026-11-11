@@ -11,6 +11,6 @@ preview: /img/girl.jpg
 category: illustration
 ---
 
-![night and light](/img/girl.jpg) 
+![night and light](/img/web/1600/girl.jpg) 
 
 

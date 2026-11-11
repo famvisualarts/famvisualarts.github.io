@@ -14,9 +14,9 @@ category: drawing
 ---
 
 
-![Untitled](/img/paintings2024/femmeenceinte.jpg) 
+![Untitled](/img/web/1600/paintings2024/femmeenceinte.jpg) 
 
-![detail](/img/paintings2024/femmeenceinte.jpg) 
+![detail](/img/web/1600/paintings2024/femmeenceinte.jpg) 
 
 
 

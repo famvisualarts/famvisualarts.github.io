@@ -11,8 +11,8 @@ preview: /img/dreamhouse.jpg
 category: illustration
 ---
 
-![dreamhouse](/img/dreamhouse.jpg) 
-![dreamhouse](/img/dream-house-simulation.jpg) 
+![dreamhouse](/img/web/1600/dreamhouse.jpg) 
+![dreamhouse](/img/web/1600/dream-house-simulation.jpg) 
 
 
 

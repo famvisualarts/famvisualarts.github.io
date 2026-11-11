@@ -14,5 +14,5 @@ category: drawing
 ---
 
 
-![Sauce tomate](/img/paintings2024/saucetomate.jpg) 
+![Sauce tomate](/img/web/1600/paintings2024/saucetomate.jpg) 
 

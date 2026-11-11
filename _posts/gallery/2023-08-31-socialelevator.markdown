@@ -15,7 +15,7 @@ tagmerit: 🖼 Group show- 49ème Salon des artistes locaux, Centre d’art la G
 ---
 
 
-![detail](/img/paintings2023/socialelevator/showexphouille.jpg) 
+![detail](/img/web/1600/paintings2023/socialelevator/showexphouille.jpg) 
 
 
 The artwork portrays a woman of striking beauty and timeless elegance, radiating a sense of fulfillment and inner richness. It intricately examines the interplay between material prosperity and emotional independence, delving into how wealth can contribute to personal flourishing.

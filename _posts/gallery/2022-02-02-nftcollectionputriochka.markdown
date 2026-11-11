@@ -9,7 +9,7 @@ preview: /img/nftcollection/putriochka-nft.jpg
 category: nft
 ---
 
-![putriochka nft collection ](/img/nftcollection/putriochka-nft.jpg) 
+![putriochka nft collection ](/img/web/1600/nftcollection/putriochka-nft.jpg) 
 > Putriochka NFT collection, 2022 <br> 
 > Blockchain: Polygon <br>
 > Minted on ☞ [Opensea](https://opensea.io/collection/putriochka)

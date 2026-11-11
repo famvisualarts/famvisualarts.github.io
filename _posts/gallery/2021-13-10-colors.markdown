@@ -13,6 +13,6 @@ preview: /img/colors.jpg
 category: drawing
 ---
 
-![colors](/img/colors.jpg) 
+![colors](/img/web/1600/colors.jpg) 
 
 

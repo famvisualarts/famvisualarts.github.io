@@ -9,7 +9,7 @@ preview: /img/nftcollection/moonboynft.jpg
 category: nft
 ---
 
-![putriochka nft collection ](/img/nftcollection/moonboynft.jpg) 
+![putriochka nft collection ](/img/web/1600/nftcollection/moonboynft.jpg) 
 > MoonBoyNFT collection (50 NFTs), 2022 <br> 
 > Blockchain: Polygon <br>
 > Minted on ☞ [Opensea](https://opensea.io/collection/moonboynft) <br>

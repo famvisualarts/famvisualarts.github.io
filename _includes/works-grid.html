@@ -9,7 +9,7 @@
     {% assign n = n | plus: 1 %}
     <figure class="work-card" style="margin:0 0 clamp(2rem,4vw,3.25rem)">
       <a href="{{ post.url | relative_url }}">
-        <div class="frame"><img src="{{ post.preview | relative_url }}" alt="{{ post.title | escape }}{% if post.year %}, {{ post.year }}{% endif %}" loading="lazy" decoding="async"></div>
+        <div class="frame">{% capture alt %}{{ post.title | escape }}{% if post.year %}, {{ post.year }}{% endif %}{% endcapture %}{% include img.html src=post.preview alt=alt sizes="(max-width: 520px) 100vw, (max-width: 1100px) 50vw, 33vw" %}</div>
         <figcaption>{% include cartel.html w=post noartist=true %}</figcaption>
       </a>
     </figure>

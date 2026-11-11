@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![L’aubergine](/img/paintings2024/aubergine.jpg) 
+![L’aubergine](/img/web/1600/paintings2024/aubergine.jpg) 
 

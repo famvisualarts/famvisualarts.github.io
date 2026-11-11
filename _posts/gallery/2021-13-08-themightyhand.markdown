@@ -11,6 +11,6 @@ preview: /img/fuck.png
 category: illustration
 ---
 
-![christine lagarde](/img/fuck.png) 
+![christine lagarde](/img/web/1600/fuck.jpg) 
 
 

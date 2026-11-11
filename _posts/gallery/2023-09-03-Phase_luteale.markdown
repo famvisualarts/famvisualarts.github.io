@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Phase lutéale](/img/paintings2024/Phase_luteale.jpg) 
+![Phase lutéale](/img/web/1600/paintings2024/Phase_luteale.jpg) 
 

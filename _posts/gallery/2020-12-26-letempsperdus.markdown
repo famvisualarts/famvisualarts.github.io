@@ -11,4 +11,4 @@ preview: /img/letempsperdus.jpg
 category: illustration
 ---
 
-![le temps perdus](/img/letempsperdus.jpg) 
+![le temps perdus](/img/web/1600/letempsperdus.jpg) 

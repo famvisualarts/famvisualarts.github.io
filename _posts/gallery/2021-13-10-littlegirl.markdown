@@ -13,6 +13,6 @@ preview: /img/littlegirl.jpg
 category: drawing
 ---
 
-![little girl](/img/littlegirl.jpg) 
+![little girl](/img/web/1600/littlegirl.jpg) 
 
 

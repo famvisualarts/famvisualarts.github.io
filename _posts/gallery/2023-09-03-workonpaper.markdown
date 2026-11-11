@@ -14,9 +14,9 @@ category: drawing
 ---
 
 
-![Transcend](/img/paintings2024/workonpaper1.jpg) 
+![Transcend](/img/web/1600/paintings2024/workonpaper1.jpg) 
 
-![detail](/img/paintings2024/workonpaper11.JPG) 
+![detail](/img/web/1600/paintings2024/workonpaper11.jpg) 
 
 
 

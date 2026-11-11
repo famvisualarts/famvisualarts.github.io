@@ -13,6 +13,6 @@ preview: /img/flowersblindme.jpg
 category: drawing
 ---
 
-![flowers blind me](/img/flowersblindme.jpg) 
+![flowers blind me](/img/web/1600/flowersblindme.jpg) 
 
 

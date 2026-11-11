@@ -11,6 +11,6 @@ preview: /img/hockneyspring-opt.jpg
 category: illustration
 ---
 
-![dessinez le printemps comme David Hockney](/img/hockneyspring-opt.jpg) 
+![dessinez le printemps comme David Hockney](/img/web/1600/hockneyspring-opt.jpg) 
 
 We cannot evoke the theme of spring without speaking of Claude Monet's Giverny garden, real color palettes which follow a chromatic gradient from white to purple. #hockneyprintemps

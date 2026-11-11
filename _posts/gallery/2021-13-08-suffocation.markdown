@@ -13,7 +13,7 @@ preview: /img/worksonpaper/suffocation.jpg
 category: drawing
 ---
 
-![dichotomy](/img/worksonpaper/suffocation.jpg) 
+![dichotomy](/img/web/1600/worksonpaper/suffocation.jpg) 
 
 A dichotomy is a partition of a whole (or a set) into two parts (subsets).
 

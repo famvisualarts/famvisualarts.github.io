@@ -13,7 +13,7 @@ preview: /img/worksonpaper/racine.png
 category: drawing
 ---
 
-![sik](/img/worksonpaper/racine.png) 
-![sik](/img/worksonpaper/racine.png) 
+![sik](/img/web/1600/worksonpaper/racine.jpg) 
+![sik](/img/web/1600/worksonpaper/racine.jpg) 
 
 

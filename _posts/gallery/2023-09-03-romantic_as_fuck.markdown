@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Romantic as fuck](/img/paintings2024/romantic_as_fuck.jpg) 
+![Romantic as fuck](/img/web/1600/paintings2024/romantic_as_fuck.jpg) 
 

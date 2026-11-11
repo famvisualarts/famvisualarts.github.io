@@ -13,5 +13,5 @@ preview: /img/flowerpower.jpg
 category: drawing
 ---
 
-![flower power](/img/flowerpower.jpg) 
+![flower power](/img/web/1600/flowerpower.jpg) 
 
