@@ -6,5 +6,10 @@
     <li><a href="https://www.facebook.com/famvisualarts" rel="noopener">Facebook</a></li>
     <li><a href="https://www.behance.net/famvisualarts" rel="noopener">Behance</a></li>
   </ul>
+  <ul class="footer-legal">
+    <li><a href="{{ t.prefix | append: '/legal/shipping/' | relative_url }}">{{ t.shop.shipping }}</a></li>
+    <li><a href="{{ t.prefix | append: '/legal/terms/' | relative_url }}">{{ t.shop.terms }}</a></li>
+    <li><a href="{{ t.prefix | append: '/legal/notice/' | relative_url }}">{{ t.shop.legal }}</a></li>
+  </ul>
   <p style="margin:0">&copy; {{ 'now' | date: '%Y' }} FAM. {{ t.rights }}</p>
 </footer>

@@ -33,23 +33,14 @@ exclude:
   - urban.gemspec
   - vendor
   - tools
+  - SHOP.md
 
-collections:
-  products:
-    title: Products
-    output: true
-    permalink: "/shop/:path/"
 
 defaults:
 - scope:
     path: ''
   values:
     lang: en
-- scope:
-    path: ''
-    type: products
-  values:
-    layout: product
 - scope:
     path: 'fr'
   values:

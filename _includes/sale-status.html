@@ -1,0 +1,22 @@
+{%- comment -%} Sale block for a work (include.w). Shown only when the work has a price or a status. {%- endcomment -%}
+{%- assign w = include.w -%}
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+{%- if w.price or w.status -%}
+<div class="sale">
+  {%- if w.status == "sold" -%}
+    <p class="sale-state"><span class="dot dot-sold" aria-hidden="true"></span><span data-fr="{{ site.data.i18n.fr.shop.sold }}">{{ t.shop.sold }}</span></p>
+  {%- elsif w.status == "reserved" -%}
+    <p class="sale-state"><span class="dot dot-reserved" aria-hidden="true"></span><span data-fr="{{ site.data.i18n.fr.shop.reserved }}">{{ t.shop.reserved }}</span></p>
+  {%- else -%}
+    {%- if w.price -%}<p class="sale-price" data-fr="{% include price.html amount=w.price lang='fr' %}">{% include price.html amount=w.price %}</p>{%- endif -%}
+    {%- if include.full -%}
+      {%- if w.stripe_link -%}
+        <p><a class="button" href="{{ w.stripe_link }}{% if page.lang == 'fr' %}?locale=fr{% endif %}" data-fr-href="{{ w.stripe_link }}?locale=fr" rel="noopener"><span data-fr="{{ site.data.i18n.fr.shop.buy }}">{{ t.shop.buy }}</span></a></p>
+        <p class="sale-note" data-fr="{{ site.data.i18n.fr.shop.secure }}">{{ t.shop.secure }}</p>
+      {%- elsif w.price == nil -%}
+        <p><a class="text-link" href="{{ t.prefix | append: '/contact/' | relative_url }}?work={{ w.title | uri_escape }}">{{ t.shop.ask_price }}</a></p>
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+</div>
+{%- endif -%}

@@ -1,0 +1,8 @@
+{%- comment -%} {% include price.html amount=1200 %} → "1 200 €" (fr) / "€1,200" (en) {%- endcomment -%}
+{%- assign a = include.amount | plus: 0 -%}
+{%- assign k = a | divided_by: 1000 | floor -%}
+{%- assign r = a | modulo: 1000 -%}
+{%- assign pl = include.lang | default: page.lang -%}
+{%- if pl == "fr" -%}{%- assign sep = " " -%}{%- else -%}{%- assign sep = "," -%}{%- endif -%}
+{%- if k > 0 -%}{%- capture rs -%}{%- if r < 10 -%}00{%- elsif r < 100 -%}0{%- endif -%}{{ r }}{%- endcapture -%}{%- capture n -%}{{ k }}{{ sep }}{{ rs }}{%- endcapture -%}{%- else -%}{%- assign n = a -%}{%- endif -%}
+{%- if pl == "fr" -%}{{ n }} €{%- else -%}€{{ n }}{%- endif -%}

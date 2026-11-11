@@ -10,6 +10,7 @@
   <nav class="site-nav" id="site-nav" aria-label="{{ t.menu }}">
     <ul>
       <li><a data-fr-href="{{ '/fr/gallery/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.nav.works }}" href="{{ lp | append: '/gallery/' | relative_url }}"{% if section contains 'gallery' or page.layout == 'post' %} aria-current="page"{% endif %}>{{ t.nav.works }}</a></li>
+      <li><a data-fr-href="{{ '/fr/boutique/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.nav.shop }}" href="{{ t.prefix | append: '/shop/' | relative_url }}"{% if section == 'shop' %} aria-current="page"{% endif %}>{{ t.nav.shop }}</a></li>
       <li><a data-fr-href="{{ '/fr/news/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.nav.exhibitions }}" href="{{ lp | append: '/news/' | relative_url }}"{% if section == 'news' %} aria-current="page"{% endif %}>{{ t.nav.exhibitions }}</a></li>
       <li><a data-fr-href="{{ '/fr/about/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.nav.about }}" href="{{ lp | append: '/about/' | relative_url }}"{% if section == 'about' or section == 'biography' or section == 'cv' %} aria-current="page"{% endif %}>{{ t.nav.about }}</a></li>
       <li><a data-fr-href="{{ '/fr/contact/' | relative_url }}" data-fr-text="{{ site.data.i18n.fr.nav.contact }}" href="{{ lp | append: '/contact/' | relative_url }}"{% if section == 'contact' %} aria-current="page"{% endif %}>{{ t.nav.contact }}</a></li>
