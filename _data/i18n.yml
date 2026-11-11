@@ -45,6 +45,21 @@ en:
     watercolour_paper: Watercolor on paper
   series_404: 404 series
   rights: All rights reserved.
+  form:
+    intro: Write to me about a work, an exhibition or a commission. I usually reply within a few days.
+    name: Name
+    email: Email
+    topic: Subject
+    topics: [A work, An exhibition, A commission, Something else]
+    message: Message
+    send: Send message
+    sending: Sending…
+    required: Required
+    direct: Or write directly
+    thanks_title: Message sent
+    thanks_text: Thank you, your message has reached me. I will reply to the email address you gave.
+    back: Back to the works
+    work_prefill: "About the work: "
   works_title: Works
   exhibitions_title: Exhibitions
   about_title: About
@@ -106,6 +121,21 @@ fr:
     watercolour_paper: Aquarelle sur papier
   series_404: série 404
   rights: Tous droits réservés.
+  form:
+    intro: Écrivez-moi au sujet d’une œuvre, d’une exposition ou d’une commande. Je réponds en général sous quelques jours.
+    name: Nom
+    email: E-mail
+    topic: Objet
+    topics: [Une œuvre, Une exposition, Une commande, Autre chose]
+    message: Message
+    send: Envoyer le message
+    sending: Envoi…
+    required: Obligatoire
+    direct: Ou écrivez directement
+    thanks_title: Message envoyé
+    thanks_text: Merci, votre message m’est bien parvenu. Je vous répondrai à l’adresse e-mail indiquée.
+    back: Retour aux œuvres
+    work_prefill: "À propos de l’œuvre : "
   works_title: Œuvres
   exhibitions_title: Expositions
   about_title: À propos
