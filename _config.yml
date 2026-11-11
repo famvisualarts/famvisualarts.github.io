@@ -32,6 +32,7 @@ exclude:
   - Gemfile.lock
   - urban.gemspec
   - vendor
+  - tools
 
 collections:
   products:

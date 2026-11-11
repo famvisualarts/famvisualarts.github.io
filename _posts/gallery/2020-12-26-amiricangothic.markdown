@@ -12,7 +12,7 @@ preview: /img/americangothic/americangothic-min.jpg
 category: illustration
 ---
 
-![american gothic](/img/americangothic/americangothic-min.jpg) 
+![american gothic](/img/web/1600/americangothic/americangothic-min.jpg) 
 american gothic - revisited, digital painting, 2020
 
 

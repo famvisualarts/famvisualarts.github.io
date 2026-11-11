@@ -12,4 +12,4 @@ category: illustration
 ---
 
 
-![christine lagarde](/img/digital2023/hellofriends.jpg) 
+![christine lagarde](/img/web/1600/digital2023/hellofriends.jpg) 

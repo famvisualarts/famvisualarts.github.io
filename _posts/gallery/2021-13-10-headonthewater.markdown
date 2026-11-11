@@ -13,6 +13,6 @@ preview: /img/headonthewater.jpg
 category: drawing
 ---
 
-![Le carrousel Jules Verne](/img/headonthewater.jpg) 
+![Le carrousel Jules Verne](/img/web/1600/headonthewater.jpg) 
 
 

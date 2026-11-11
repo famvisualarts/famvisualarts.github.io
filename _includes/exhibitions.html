@@ -8,7 +8,7 @@
     <div>
     {% for e in y.items %}
       <article class="expo">
-        <div class="thumb">{% if e.image %}<img src="{{ e.image | relative_url }}" alt="" loading="lazy">{% endif %}</div>
+        <div class="thumb">{% if e.image %}{% include img.html src=e.image alt="" sizes="112px" %}{% endif %}</div>
         <div>
           <h3>{{ e.title[l] }}</h3>
           <p>{{ e.venue[l] }}</p>

@@ -9,8 +9,8 @@ preview: /img/digital2023/5womens1.jpg
 category: illustration
 ---
 
-![christine lagarde](/img/digital2023/5womens1.jpg) 
-![christine lagarde](/img/digital2023/5womens2.jpg) 
-![christine lagarde](/img/digital2023/5womens3.jpg) 
+![christine lagarde](/img/web/1600/digital2023/5womens1.jpg) 
+![christine lagarde](/img/web/1600/digital2023/5womens2.jpg) 
+![christine lagarde](/img/web/1600/digital2023/5womens3.jpg) 
 
 

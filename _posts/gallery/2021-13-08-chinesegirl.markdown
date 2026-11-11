@@ -11,6 +11,6 @@ preview: /img/chinesegirl.jpg
 category: illustration
 ---
 
-![night and light](/img/chinesegirl.jpg) 
+![night and light](/img/web/1600/chinesegirl.jpg) 
 
 

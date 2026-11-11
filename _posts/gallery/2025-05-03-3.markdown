@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Red](/img/paintings2025/3.jpg) 
+![Red](/img/web/1600/paintings2025/3.jpg) 
 

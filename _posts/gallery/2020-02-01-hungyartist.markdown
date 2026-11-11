@@ -14,7 +14,7 @@ category: /
 tagmerit: 🖼 virtual exhibition at Ornata, March 2020
 ---
 
-![Banana](/img/hungry_artist.jpg) 
+![Banana](/img/web/1600/hungry_artist.jpg) 
 
 
 Hungy Artist, Acrylique sur toile,40x40 cm, 2020.    

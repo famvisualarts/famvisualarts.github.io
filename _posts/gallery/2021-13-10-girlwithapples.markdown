@@ -13,7 +13,7 @@ preview: /img/worksonpaper/girlwithapples.png
 category: drawing
 ---
 
-![faces series](/img/worksonpaper/girlwithapples.png) 
-![faces series](/img/worksonpaper/girlwithapples.png) 
+![faces series](/img/web/1600/worksonpaper/girlwithapples.jpg) 
+![faces series](/img/web/1600/worksonpaper/girlwithapples.jpg) 
 
 

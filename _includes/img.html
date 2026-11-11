@@ -1,0 +1,7 @@
+{%- comment -%} {% include img.html src="/img/x.jpg" alt="…" sizes="(max-width: 520px) 100vw, 33vw" eager=true %} {%- endcomment -%}
+{%- assign im = site.data.images[include.src] -%}
+{%- if im -%}
+<img src="{{ im.l | relative_url }}" srcset="{{ im.s | relative_url }} 800w, {{ im.l | relative_url }} 1600w" sizes="{{ include.sizes | default: '100vw' }}" width="{{ im.w }}" height="{{ im.h }}" alt="{{ include.alt }}"{% unless include.eager %} loading="lazy"{% endunless %} decoding="async">
+{%- else -%}
+<img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% unless include.eager %} loading="lazy"{% endunless %} decoding="async">
+{%- endif -%}

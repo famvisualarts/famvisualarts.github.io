@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![No Detour](/img/paintings2025/2.jpg) 
+![No Detour](/img/web/1600/paintings2025/2.jpg) 
 

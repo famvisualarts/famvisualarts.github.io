@@ -11,7 +11,7 @@ preview: /img/kowala.jpg
 category: illustration
 ---
 
-![Bad boy](/img/kowala.jpg) 
+![Bad boy](/img/web/1600/kowala.jpg) 
 
 
 

@@ -13,7 +13,7 @@ preview: /img/falling.png
 category: drawing
 ---
 
-![falling](/img/falling.png) 
+![falling](/img/web/1600/falling.jpg) 
 
 
 

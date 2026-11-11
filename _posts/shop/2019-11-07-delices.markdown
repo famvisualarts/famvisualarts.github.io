@@ -14,7 +14,7 @@ price: 320
 description: the delights of reverie, acrylic on canva, 80x60 cm, 2019
 ---
 
-![The delights of reverie](/img/delices.jpg) 
+![The delights of reverie](/img/web/1600/delices.jpg) 
 
 
 
@@ -23,7 +23,7 @@ description: the delights of reverie, acrylic on canva, 80x60 cm, 2019
 Artwork candidate for the November Painting Prize in Vitry 2019 and selected for a collective exhibition from November 16 to December 15 at the Municipal Gallery JEAN-COLLET of Vitry-sur-Seine. [More details here](https://galerie.vitry94.fr/3476-19217/expositions/details/fiche/une-annee-en-peinture-acte-5-novembre-a-vitry-2019-prix-de-peinture.htm
 )
 
-![catalogue](/img/catalogue-vitry2019.jpg) 
+![catalogue](/img/web/1600/catalogue-vitry2019.jpg) 
 
 80x60 cm. acrylic on canva
 

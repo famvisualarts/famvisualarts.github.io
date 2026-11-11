@@ -14,7 +14,7 @@ price: 195
 description: Ceci n'est pas une banane, Acrylique sur toile,40x40 cm, 2020.
 ---
 
-![Banana](/img/hungry_artist.jpg) 
+![Banana](/img/web/1600/hungry_artist.jpg) 
 
 40x40 cm. acrylic on canva
 

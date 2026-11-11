@@ -13,7 +13,7 @@ preview: /img/worksonpaper/chicgirl.png
 category: drawing
 ---
 
-![chic girl](/img/worksonpaper/chicgirl.png) 
-![chic girl](/img/worksonpaper/chicgirl.png) 
+![chic girl](/img/web/1600/worksonpaper/chicgirl.jpg) 
+![chic girl](/img/web/1600/worksonpaper/chicgirl.jpg) 
 
 

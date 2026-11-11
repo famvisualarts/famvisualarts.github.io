@@ -13,7 +13,7 @@ preview: /img/goldengirl.jpg
 category: drawing
 ---
 
-![dichotomy](/img/goldengirl.jpg) 
+![dichotomy](/img/web/1600/goldengirl.jpg) 
 
 
 

@@ -12,6 +12,6 @@ preview: /img/butterfly.jpg
 category: illustration
 ---
 
-![night and light](/img/butterfly.jpg) 
+![night and light](/img/web/1600/butterfly.jpg) 
 
 

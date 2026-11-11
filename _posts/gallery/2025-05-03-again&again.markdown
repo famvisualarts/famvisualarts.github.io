@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Tired](/img/paintings2025/Again&again.jpg) 
+![Tired](/img/web/1600/paintings2025/Again&again.jpg) 
 

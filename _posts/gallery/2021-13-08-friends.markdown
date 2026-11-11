@@ -9,6 +9,6 @@ preview: /img/digital2023/friends1.png
 category: illustration
 ---
 
-![christine lagarde](/img/digital2023/friends1.png) 
+![christine lagarde](/img/web/1600/digital2023/friends1.jpg) 
 
 

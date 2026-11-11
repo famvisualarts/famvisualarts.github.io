@@ -13,7 +13,7 @@ preview: /img/snakes.jpg
 category: drawing
 ---
 
-![snaks](/img/snakes.jpg) 
-![snaks](/img/snakes-detail.jpg) 
+![snaks](/img/web/1600/snakes.jpg) 
+![snaks](/img/web/1600/snakes-detail.jpg) 
 
 

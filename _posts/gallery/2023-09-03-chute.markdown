@@ -14,9 +14,9 @@ category: drawing
 ---
 
 
-![The fall](/img/paintings2024/chute.JPG) 
+![The fall](/img/web/1600/paintings2024/chute.jpg) 
 
-![detail](/img/paintings2024/chute1.JPG) 
+![detail](/img/web/1600/paintings2024/chute1.jpg) 
 
 
 

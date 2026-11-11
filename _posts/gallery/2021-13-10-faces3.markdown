@@ -14,7 +14,7 @@ preview: /img/worksonpaper/faces3.png
 category: drawing
 ---
 
-![faces series](/img/worksonpaper/faces3.png) 
-![faces series](/img/worksonpaper/faces3.png) 
+![faces series](/img/web/1600/worksonpaper/faces3.jpg) 
+![faces series](/img/web/1600/worksonpaper/faces3.jpg) 
 
 

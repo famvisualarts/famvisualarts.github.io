@@ -6,7 +6,7 @@
     {% assign w = site.posts | where: "preview", src | first %}
     <figure class="wall-work{% if forloop.first %} is-current{% endif %}" data-index="{{ forloop.index0 }}" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} {{ t.slideshow.of }} {{ n }}" style="margin:0"{% unless forloop.first %} aria-hidden="true"{% endunless %}>
       <a href="{{ w.url | relative_url }}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}">
-        <img src="{{ src | relative_url }}" alt="{{ w.title | escape }}, {{ w.year }}, FAM"{% unless forloop.first %} loading="lazy"{% endunless %} decoding="async">
+        {% capture alt %}{{ w.title | escape }}, {{ w.year }}, FAM{% endcapture %}{% include img.html src=src alt=alt sizes="(max-width: 760px) 100vw, 70vw" eager=forloop.first %}
       </a>
       <template class="wall-cartel">{% include cartel.html w=w %}</template>
     </figure>

@@ -13,7 +13,7 @@ preview: /img/worksonpaper/solstice.png
 category: drawing
 ---
 
-![solstice](/img/worksonpaper/solstice.png) 
-![solstice](/img/worksonpaper/solstice.png) 
+![solstice](/img/web/1600/worksonpaper/solstice.jpg) 
+![solstice](/img/web/1600/worksonpaper/solstice.jpg) 
 
 

@@ -14,5 +14,5 @@ category: drawing
 ---
 
 
-![Resist](/img/paintings2024/paintingonmedicationleaflet.jpg) 
+![Resist](/img/web/1600/paintings2024/paintingonmedicationleaflet.jpg) 
 

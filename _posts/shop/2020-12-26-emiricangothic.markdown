@@ -12,8 +12,8 @@ price: 45
 description: American Gothic, Peinture numérique, décembre 2020
 ---
 
-![American gothic-revisited](/img/americangothic/americangothic-min.jpg) 
-![American gothic-revisited](/img/americangothic/americangothic-framed-min.jpg) 
+![American gothic-revisited](/img/web/1600/americangothic/americangothic-min.jpg) 
+![American gothic-revisited](/img/web/1600/americangothic/americangothic-framed-min.jpg) 
 
 
 42 x 29,7 cm. print

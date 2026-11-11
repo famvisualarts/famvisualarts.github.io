@@ -12,6 +12,6 @@ preview: /img/soakedface.jpg
 category: illustration
 ---
 
-![night and light](/img/soakedface.jpg) 
+![night and light](/img/web/1600/soakedface.jpg) 
 
 

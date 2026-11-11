@@ -13,7 +13,7 @@ preview: /img/worksonpaper/untitled1.png
 category: drawing
 ---
 
-![untitled1](/img/worksonpaper/untitled1.png) 
-![untitled1](/img/worksonpaper/untitled1.png) 
+![untitled1](/img/web/1600/worksonpaper/untitled1.jpg) 
+![untitled1](/img/web/1600/worksonpaper/untitled1.jpg) 
 
 

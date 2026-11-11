@@ -11,7 +11,7 @@ preview: /img/heads.jpg
 category: illustration
 ---
 
-![dreamhouse](/img/heads.jpg) 
+![dreamhouse](/img/web/1600/heads.jpg) 
 
 
 

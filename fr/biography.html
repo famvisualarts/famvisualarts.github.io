@@ -7,7 +7,7 @@ subnav: about
 section: about
 ---
 <div class="bio">
-  <div class="portrait"><img src="{{ '/img/artist/artist1.JPG' | relative_url }}" alt="FAM, artiste plasticienne"></div>
+  <div class="portrait">{% include img.html src="/img/artist/artist1.JPG" alt="FAM, artiste plasticienne" sizes="(max-width: 760px) 100vw, 40vw" eager=true %}</div>
   <div>
 <p class="lede">FAM est une artiste plasticienne française née en 1987. Elle vit et travaille près de Paris.</p>
 

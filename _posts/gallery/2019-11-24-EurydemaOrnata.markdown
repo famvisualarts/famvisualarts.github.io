@@ -12,7 +12,7 @@ category: illustration
 tagmerit: 🔖 featured in ornata magazine, march 2020 issue N°7.
 ---
  
-![Fly times](/img/Ornata_Farah_cherif.jpg) 
+![Fly times](/img/web/1600/Ornata_Farah_cherif.jpg) 
 
 
 fly times, featured in ornata magazine, march 2020 issue #7

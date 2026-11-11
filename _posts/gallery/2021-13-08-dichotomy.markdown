@@ -13,7 +13,7 @@ preview: /img/dichotomy.png
 category: drawing
 ---
 
-![dichotomy](/img/dichotomy.png) 
+![dichotomy](/img/web/1600/dichotomy.jpg) 
 
 A dichotomy is a partition of a whole (or a set) into two parts (subsets).
 

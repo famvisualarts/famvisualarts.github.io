@@ -13,7 +13,7 @@ preview: /img/worksonpaper/greenface.jpg
 category: drawing
 ---
 
-![dichotomy](/img/worksonpaper/greenface.jpg) 
+![dichotomy](/img/web/1600/worksonpaper/greenface.jpg) 
 
 A dichotomy is a partition of a whole (or a set) into two parts (subsets).
 

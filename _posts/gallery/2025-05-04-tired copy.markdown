@@ -14,5 +14,5 @@ category: painting
 ---
 
 
-![Doubt](/img/paintings2025/naurel.jpg) 
+![Doubt](/img/web/1600/paintings2025/naurel.jpg) 
 

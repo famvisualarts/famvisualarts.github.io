@@ -15,7 +15,7 @@ category: painting
 ---
 
 
-![Glamour](/img/paintings2023/p1/p11.jpg) 
+![Glamour](/img/web/1600/paintings2023/p1/p11.jpg) 
 
 
 The artwork portrays a woman of striking beauty and timeless elegance, radiating a sense of fulfillment and inner richness. It intricately examines the interplay between material prosperity and emotional independence, delving into how wealth can contribute to personal flourishing.
@@ -27,14 +27,14 @@ This portrait prompts contemplation on the influence of prosperity on mental wel
 In summation, this captivating artwork intricately illustrates the intricate link between affluence, emotional autonomy, and personal growth. It challenges conventional notions of success, beckoning us to venture into the inner dimensions of prosperity.
 
 
-![detail](/img/paintings2023/p1/p11.jpg) 
-![detail](/img/paintings2023/p1/p12.png) 
-![detail](/img/paintings2023/p1/p13.png) 
-![detail](/img/paintings2023/p1/p14.png) 
-![detail](/img/paintings2023/p1/p15.png) 
-![detail](/img/paintings2023/p1/p16.png)
-![detail](/img/paintings2023/p1/p17.png)
-![detail](/img/paintings2023/p1/p18.png)
-![detail](/img/paintings2023/p1/p19.png)
+![detail](/img/web/1600/paintings2023/p1/p11.jpg) 
+![detail](/img/web/1600/paintings2023/p1/p12.jpg) 
+![detail](/img/web/1600/paintings2023/p1/p13.jpg) 
+![detail](/img/web/1600/paintings2023/p1/p14.jpg) 
+![detail](/img/web/1600/paintings2023/p1/p15.jpg) 
+![detail](/img/web/1600/paintings2023/p1/p16.jpg)
+![detail](/img/web/1600/paintings2023/p1/p17.jpg)
+![detail](/img/web/1600/paintings2023/p1/p18.jpg)
+![detail](/img/web/1600/paintings2023/p1/p19.jpg)
 
 

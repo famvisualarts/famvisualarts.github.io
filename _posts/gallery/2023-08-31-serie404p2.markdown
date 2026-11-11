@@ -13,17 +13,17 @@ category: painting
 ---
 
 Collective exhibition
-![Le petit-déjeuner](/img/paintings2023/p2/p2show.jpg) 
+![Le petit-déjeuner](/img/web/1600/paintings2023/p2/p2show.jpg) 
 
 
 
 
 
-![catalogue](/img/paintings2023/p2/p22.png) 
-![catalogue](/img/paintings2023/p2/p23.png) 
-![catalogue](/img/paintings2023/p2/p24.png) 
-![catalogue](/img/paintings2023/p2/p25.png) 
-![catalogue](/img/paintings2023/p2/p26.png) 
+![catalogue](/img/web/1600/paintings2023/p2/p22.jpg) 
+![catalogue](/img/web/1600/paintings2023/p2/p23.jpg) 
+![catalogue](/img/web/1600/paintings2023/p2/p24.jpg) 
+![catalogue](/img/web/1600/paintings2023/p2/p25.jpg) 
+![catalogue](/img/web/1600/paintings2023/p2/p26.jpg) 
 
 
 

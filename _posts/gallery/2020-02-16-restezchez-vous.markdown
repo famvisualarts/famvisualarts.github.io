@@ -12,7 +12,7 @@ preview: /img/restez-chez-vous.jpg
 category: illustration
 ---
 
-![RestezChezVous](/img/restez-chez-vous.jpg) 
+![RestezChezVous](/img/web/1600/restez-chez-vous.jpg) 
 
 
 lock down covid-19, mars 2020 with hashtag #stayhome in french #RestezChezVous

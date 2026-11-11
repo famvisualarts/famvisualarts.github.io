@@ -9,6 +9,6 @@ preview: /img/digital2023/seeboobs1.jpg
 category: illustration
 ---
 
-![christine lagarde](/img/digital2023/seeboobs1.jpg) 
+![christine lagarde](/img/web/1600/digital2023/seeboobs1.jpg) 
 
 
