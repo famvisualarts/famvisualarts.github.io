@@ -6,13 +6,6 @@ layout: default
 <article class="work">
   <div class="work-images">
     {{ content }}
-    {%- assign room = site.data.rooms[page.image] -%}
-    {%- if room and page.price and page.status != "sold" %}
-    <figure class="work-room">
-      <img src="{{ room | relative_url }}" width="1600" height="1067" alt="{{ t.shop.room_alt }}" loading="lazy" decoding="async">
-      <figcaption data-fr="{{ site.data.i18n.fr.shop.room }}">{{ t.shop.room }}</figcaption>
-    </figure>
-    {%- endif %}
   </div>
   <aside class="work-aside">
     {% include cartel.html w=page tag="h1" %}
