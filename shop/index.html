@@ -8,7 +8,7 @@ section: shop
 {% assign t = site.data.i18n[page.lang] %}
 {% assign n = 0 %}{% for p in site.posts %}{% if p.category == "painting" or p.category == "drawing" %}{% if p.price or p.status %}{% assign n = n | plus: 1 %}{% endif %}{% endif %}{% endfor %}
 <header class="page-head"><h1 class="page-title">{{ t.shop.title }}</h1></header>
-<p class="shop-intro">{{ t.shop.intro }}</p>
+<p class="shop-intro">{{ t.shop.intro }} <a class="text-link" href="{{ t.prefix | append: '/' | append: t.how_slug | append: '/' | relative_url }}">{{ t.shop.how }}</a></p>
 {% if n > 0 %}
 {% include works-grid.html categories="painting,drawing" shop=true %}
 {% else %}

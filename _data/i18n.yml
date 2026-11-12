@@ -1,6 +1,7 @@
 # Interface strings. Pages pick their set with page.lang (default: en, /fr/ pages: fr).
 en:
   prefix: ""
+  how_slug: how-to-buy
   html_lang: en
   other: fr
   other_label: FR
@@ -66,6 +67,16 @@ en:
     shipping: Shipping and returns
     terms: Terms of sale
     legal: Legal notice
+    how: How to buy
+    trust: ["Original one-of-a-kind work, signed", "Certificate of authenticity included", "Shipped within 48 hours, tracked and insured", "14 days to change your mind"]
+    room: "To-scale view: the work above a 160 cm sideboard (digital mock-up)."
+    room_alt: "To-scale mock-up of the work hung above a 160 cm sideboard"
+  share: Share this work
+  copied: Link copied
+  zoom_open: Enlarge image
+  zoom_close: Close
+  zoom_prev: Previous image
+  zoom_next: Next image
   form:
     intro: Write to me about a work, an exhibition or a commission. I usually reply within a few days.
     name: Name
@@ -98,6 +109,7 @@ en:
 
 fr:
   prefix: "/fr"
+  how_slug: comment-acheter
   html_lang: fr
   other: en
   other_label: EN
@@ -163,6 +175,16 @@ fr:
     shipping: Livraison et retours
     terms: Conditions générales de vente
     legal: Mentions légales
+    how: Comment acheter
+    trust: ["Œuvre originale unique, signée", "Certificat d’authenticité fourni", "Expédiée sous 48 h, en colis suivi et assuré", "14 jours pour changer d’avis"]
+    room: "Vue à l’échelle : l’œuvre au-dessus d’un meuble de 160 cm (montage numérique)."
+    room_alt: "Montage à l’échelle de l’œuvre accrochée au-dessus d’un meuble de 160 cm"
+  share: Partager cette œuvre
+  copied: Lien copié
+  zoom_open: Agrandir l’image
+  zoom_close: Fermer
+  zoom_prev: Image précédente
+  zoom_next: Image suivante
   form:
     intro: Écrivez-moi au sujet d’une œuvre, d’une exposition ou d’une commande. Je réponds en général sous quelques jours.
     name: Nom
