@@ -2,6 +2,7 @@
 layout: page
 permalink: /legal/shipping/
 ref: legal-shipping
+title: "Shipping and returns"
 heading: "Shipping and returns"
 ---
 <div class="prose" markdown="1">

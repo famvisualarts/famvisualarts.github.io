@@ -2,6 +2,7 @@
 layout: page
 permalink: /legal/terms/
 ref: legal-terms
+title: "Terms of sale"
 heading: "Terms of sale"
 ---
 <div class="prose" markdown="1">

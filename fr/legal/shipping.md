@@ -2,6 +2,7 @@
 layout: page
 permalink: /fr/legal/shipping/
 ref: legal-shipping
+title: "Livraison et retours"
 heading: "Livraison et retours"
 ---
 <div class="prose" markdown="1">

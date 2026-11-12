@@ -2,6 +2,7 @@
 layout: page
 permalink: /legal/notice/
 ref: legal-notice
+title: "Legal notice"
 heading: "Legal notice"
 ---
 <div class="prose" markdown="1">
