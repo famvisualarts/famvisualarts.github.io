@@ -10,9 +10,9 @@ heading: "Shipping and returns"
 
 Each work is packed by hand with corner protection, tissue paper and reinforced cardboard. Large canvases ship in a crate or double-wall box.
 
-Shipping costs are shown before payment and depend on the destination country. Works travel by tracked, insured parcel and leave within **[to complete: 3 to 7] working days** of the order.
+Shipping costs are shown before payment and depend on the destination country. Works travel by tracked, insured parcel and leave within **48 hours** (working days) of the order.
 
-Delivery areas: **[to complete: France, European Union, United Kingdom, United States…]**.
+Delivery areas: France, Europe and the rest of the world for works on paper and formats up to 55 cm; France and Europe for large formats (89 cm and over) — outside Europe, on quote.
 
 Every original comes with a signed certificate of authenticity.
 
