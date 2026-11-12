@@ -2,6 +2,7 @@
 layout: page
 permalink: /fr/legal/terms/
 ref: legal-terms
+title: "Conditions générales de vente"
 heading: "Conditions générales de vente"
 ---
 <div class="prose" markdown="1">

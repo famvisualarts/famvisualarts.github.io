@@ -2,6 +2,7 @@
 layout: page
 permalink: /fr/legal/notice/
 ref: legal-notice
+title: "Mentions légales"
 heading: "Mentions légales"
 ---
 <div class="prose" markdown="1">
