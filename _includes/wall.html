@@ -18,6 +18,7 @@
       <button type="button" data-dir="-1" aria-label="{{ t.slideshow.prev }}">&#8592;</button>
       <span class="wall-count"><span class="cur">1</span> / {{ n }}</span>
       <button type="button" data-dir="1" aria-label="{{ t.slideshow.next }}">&#8594;</button>
+      <button type="button" class="wall-pause" aria-pressed="false" data-play="{{ t.play }}" data-pause="{{ t.pause }}" aria-label="{{ t.pause }}"><span aria-hidden="true">&#10073;&#10073;</span></button>
     </div>
   </div>
 </section>
@@ -25,24 +26,33 @@
 (function () {
   var wall = document.querySelector('.wall'); if (!wall) return;
   var works = wall.querySelectorAll('.wall-work'), label = wall.querySelector('.wall-label'),
-      cur = wall.querySelector('.cur'), i = 0, timer,
-      reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      cur = wall.querySelector('.cur'), pauseBtn = wall.querySelector('.wall-pause'),
+      i = 0, timer = null, paused = false, DELAY = 5000;
+  function load(k) { var img = works[(k + works.length) % works.length].querySelector('img'); if (img.loading === 'lazy') img.loading = 'eager'; }
   function show(k) {
     works[i].classList.remove('is-current'); works[i].setAttribute('aria-hidden', 'true'); works[i].querySelector('a').tabIndex = -1;
     i = (k + works.length) % works.length;
     works[i].classList.add('is-current'); works[i].removeAttribute('aria-hidden'); works[i].querySelector('a').tabIndex = 0;
-    var img = works[i].querySelector('img'); if (img.loading === 'lazy') img.loading = 'eager';
+    load(i); load(i + 1);   /* preload the next work so it is ready when it fades in */
     label.innerHTML = works[i].querySelector('template').innerHTML; cur.textContent = i + 1;
   }
-  function step(d) { show(i + d); restart(); }
-  function restart() { clearInterval(timer); if (!reduce) timer = setInterval(function () { show(i + 1); }, 6000); }
+  function start() { clearInterval(timer); timer = paused ? null : setInterval(function () { show(i + 1); }, DELAY); }
+  function step(d) { show(i + d); start(); }
+  function setPaused(p) {
+    paused = p; pauseBtn.setAttribute('aria-pressed', p);
+    pauseBtn.setAttribute('aria-label', p ? pauseBtn.dataset.play : pauseBtn.dataset.pause);
+    pauseBtn.firstElementChild.innerHTML = p ? '&#9654;' : '&#10073;&#10073;';
+    start();
+  }
   wall.querySelectorAll('[data-dir]').forEach(function (b) { b.addEventListener('click', function () { step(+b.dataset.dir); }); });
+  pauseBtn.addEventListener('click', function () { setPaused(!paused); });
   document.addEventListener('keydown', function (e) { if (e.key === 'ArrowLeft') step(-1); if (e.key === 'ArrowRight') step(1); });
   var x0 = null;
   wall.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
   wall.addEventListener('touchend', function (e) { if (x0 === null) return; var dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 40) step(dx < 0 ? 1 : -1); x0 = null; });
-  wall.addEventListener('mouseenter', function () { clearInterval(timer); });
-  wall.addEventListener('mouseleave', restart);
-  restart();
+  /* stop while the tab is in the background, resume when it comes back */
+  document.addEventListener('visibilitychange', function () { if (document.hidden) clearInterval(timer); else start(); });
+  load(1);
+  start();
 })();
 </script>
