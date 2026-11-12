@@ -39,9 +39,9 @@ Pour un grand format hors d’Europe, [écrivez-moi]({{ '/fr/contact/' | relativ
 
 Chaque original est signé et accompagné d’un certificat d’authenticité signé.
 
-## Voir l’œuvre chez soi
+## Plus de photos, dimensions
 
-Sur chaque fiche en vente, une vue à l’échelle montre l’œuvre au-dessus d’un meuble de 160 cm, pour se rendre compte de sa taille réelle. Pour d’autres photos ou un conseil d’accrochage, [écrivez-moi]({{ '/fr/contact/' | relative_url }}).
+Les dimensions de chaque œuvre figurent sur sa fiche. Pour d’autres photos, une vidéo ou un conseil d’accrochage, [écrivez-moi]({{ '/fr/contact/' | relative_url }}).
 
 ## Changer d’avis
 

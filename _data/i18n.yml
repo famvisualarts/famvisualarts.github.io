@@ -69,8 +69,6 @@ en:
     legal: Legal notice
     how: How to buy
     trust: ["Original one-of-a-kind work, signed", "Certificate of authenticity included", "Shipped within 48 hours, tracked and insured", "14 days to change your mind"]
-    room: "To-scale view: the work above a 160 cm sideboard (digital mock-up)."
-    room_alt: "To-scale mock-up of the work hung above a 160 cm sideboard"
   share: Share this work
   copied: Link copied
   zoom_open: Enlarge image
@@ -177,8 +175,6 @@ fr:
     legal: Mentions légales
     how: Comment acheter
     trust: ["Œuvre originale unique, signée", "Certificat d’authenticité fourni", "Expédiée sous 48 h, en colis suivi et assuré", "14 jours pour changer d’avis"]
-    room: "Vue à l’échelle : l’œuvre au-dessus d’un meuble de 160 cm (montage numérique)."
-    room_alt: "Montage à l’échelle de l’œuvre accrochée au-dessus d’un meuble de 160 cm"
   share: Partager cette œuvre
   copied: Lien copié
   zoom_open: Agrandir l’image

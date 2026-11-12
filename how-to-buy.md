@@ -39,9 +39,9 @@ For a large format outside Europe, [write to me]({{ '/contact/' | relative_url }
 
 Every original is signed and comes with a signed certificate of authenticity.
 
-## See it at home
+## More photos, dimensions
 
-On each work for sale, a to-scale view shows the work above a 160 cm sideboard, so you can judge its real size. For more photos or hanging advice, [write to me]({{ '/contact/' | relative_url }}).
+Each work's dimensions are on its page. For more photos, a video or hanging advice, [write to me]({{ '/contact/' | relative_url }}).
 
 ## Changing your mind
 
