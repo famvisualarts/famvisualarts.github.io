@@ -41,7 +41,7 @@ Chaque original est signé et accompagné d’un certificat d’authenticité si
 
 ## Plus de photos, dimensions
 
-Les dimensions de chaque œuvre figurent sur sa fiche. Pour d’autres photos, une vidéo ou un conseil d’accrochage, [écrivez-moi]({{ '/fr/contact/' | relative_url }}).
+Sur chaque fiche en vente, une mise en situation (photomontage) montre l’œuvre au-dessus d’un buffet de 180 cm, pour se rendre compte de sa taille. Pour d’autres photos, une vidéo ou un conseil d’accrochage, [écrivez-moi]({{ '/fr/contact/' | relative_url }}).
 
 ## Changer d’avis
 

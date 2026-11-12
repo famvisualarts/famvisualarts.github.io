@@ -68,6 +68,8 @@ en:
     terms: Terms of sale
     legal: Legal notice
     how: How to buy
+    room: "Room view (photomontage): the work at approximate scale above a 180 cm sideboard."
+    room_alt: "Photomontage of the work hung above a black sideboard in a contemporary living room"
     trust: ["Original one-of-a-kind work, signed", "Certificate of authenticity included", "Shipped within 48 hours, tracked and insured", "14 days to change your mind"]
   share: Share this work
   copied: Link copied
@@ -174,6 +176,8 @@ fr:
     terms: Conditions générales de vente
     legal: Mentions légales
     how: Comment acheter
+    room: "Mise en situation (photomontage) : l’œuvre à l’échelle approximative, au-dessus d’un buffet de 180 cm."
+    room_alt: "Photomontage de l’œuvre accrochée au-dessus d’un buffet noir dans un salon contemporain"
     trust: ["Œuvre originale unique, signée", "Certificat d’authenticité fourni", "Expédiée sous 48 h, en colis suivi et assuré", "14 jours pour changer d’avis"]
   share: Partager cette œuvre
   copied: Lien copié
