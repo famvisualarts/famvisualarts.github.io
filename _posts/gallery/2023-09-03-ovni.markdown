@@ -12,7 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/survivor.jpg
 category: painting
 price: 450
-stripe_link: "https://buy.stripe.com/test_14A14m2VRfVR9v02qY4800a"
+stripe_link: "https://buy.stripe.com/8x28wRa1FePv80sf3c8ww0a"
 image: /img/web/1600/paintings2024/survivor.jpg
 ---
 

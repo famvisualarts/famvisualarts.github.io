@@ -12,7 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/tulipes.jpg
 category: painting
 price: 800
-stripe_link: "https://buy.stripe.com/test_eVq4gyaojaBx7mSaXu4800c"
+stripe_link: "https://buy.stripe.com/bJeeVf3DhgXD5SkdZ88ww0c"
 image: /img/web/1600/paintings2024/tulipes.jpg
 ---
 

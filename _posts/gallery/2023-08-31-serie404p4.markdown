@@ -14,7 +14,7 @@ preview: /img/paintings2023/p4/p41.jpg
 category: painting
 
 price: 1000
-stripe_link: "https://buy.stripe.com/test_9B628qaoj9xt7mSaXu48003"
+stripe_link: "https://buy.stripe.com/7sYaEZ2zd0YF5Sk5sC8ww03"
 image: /img/web/1600/paintings2023/p4/p41.jpg
 ---
 

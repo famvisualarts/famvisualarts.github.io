@@ -13,7 +13,7 @@ preview: /img/paintings2023/socialelevator/p1.jpg
 category: painting
 tagmerit: 🖼 Group show- 49ème Salon des artistes locaux, Centre d’art la Graineterie - Houilles, France
 price: 1000
-stripe_link: "https://buy.stripe.com/test_5kQ5kC0NJ2517mS1mU48004"
+stripe_link: "https://buy.stripe.com/5kQ8wR8XB4aRa8A08i8ww04"
 image: /img/web/1600/paintings2023/socialelevator/p1.jpg
 ---
 

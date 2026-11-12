@@ -12,7 +12,7 @@ logo: logoblack
 preview: /img/paintings2025/4.jpg
 category: painting
 price: 350
-stripe_link: "https://buy.stripe.com/test_3cIcN4eEzgZVcHcfdK4800g"
+stripe_link: "https://buy.stripe.com/cNi7sNehV9vb5Sk1cm8ww0g"
 image: /img/web/1600/paintings2025/4.jpg
 ---
 
