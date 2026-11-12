@@ -1,5 +1,5 @@
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
-{% assign items = "gallery:all,gallery-paintings:paintings,gallery-paper:paper" | split: "," %}
+{% assign items = "gallery:all,gallery-paintings:paintings,gallery-paper:paper,series-404:s404,series-sik:sik,series-faces:faces" | split: "," %}
 <nav class="subnav" aria-label="{{ t.works_title }}"><ul>
 {% for it in items %}{% assign kv = it | split: ":" %}{% assign pg = site.pages | where: "ref", kv[0] | where: "lang", page.lang | first %}
   <li><a href="{{ pg.url | relative_url }}"{% if page.ref == kv[0] %} aria-current="page"{% endif %}>{{ t.gallery[kv[1]] }}</a></li>

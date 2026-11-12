@@ -11,6 +11,7 @@ date:   2023-09-01 12:58:21
 logo: logoblack
 preview: /img/paintings2024/workonpaper1.jpg
 category: drawing
+image: /img/web/1600/paintings2024/workonpaper1.jpg
 ---
 
 

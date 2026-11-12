@@ -13,6 +13,7 @@ preview: /img/AnonymousDrawing.jpg
 category: drawing
 tagmerit: 🔖 Exhibited at Galerie im Körnerpark 2022 - Berlin / Group show. 
 
+image: /img/web/1600/AnonymousDrawing.jpg
 ---
 
 ![alone](/img/web/1600/AnonymousDrawing.jpg)

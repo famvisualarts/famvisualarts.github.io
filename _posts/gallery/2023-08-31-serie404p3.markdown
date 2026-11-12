@@ -13,6 +13,7 @@ logo: logoblack
 preview: /img/paintings2023/p3/p31.jpg
 category: painting
 price: 1000
+image: /img/web/1600/paintings2023/p3/p31.jpg
 ---
 
 Collective exhibition

@@ -9,6 +9,7 @@ date:   2021-12-26 17:57:21
 logo: logoblack
 preview: /img/letempsperdus.jpg
 category: illustration
+image: /img/web/1600/letempsperdus.jpg
 ---
 
 ![le temps perdus](/img/web/1600/letempsperdus.jpg) 

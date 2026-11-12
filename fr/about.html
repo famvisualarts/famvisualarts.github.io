@@ -1,10 +1,13 @@
 ---
+title: "À propos"
 layout: page
 permalink: /fr/about/
 ref: about
 heading: À propos
 subnav: about
 section: about
+redirect_from:
+  - /fr/biography/
 ---
 <div class="bio">
   <div class="portrait">{% include img.html src="/img/artist/artist1.JPG" alt="FAM, artiste plasticienne" sizes="(max-width: 760px) 100vw, 40vw" eager=true %}</div>
@@ -20,3 +23,5 @@ section: about
 <p>Ces dernières années, elle a participé à des expositions collectives en France et à l’étranger, notamment le Salon des artistes locaux au centre d’art La Graineterie à Houilles (49ᵉ, 50ᵉ et 51ᵉ éditions, 2022–2024), Décembre à Montreuil (2023), A Space Arts à Southampton (Royaume-Uni, 2023), Art Boom NFT à la Focus Art Fair, Carrousel du Louvre, Paris (2022), la Ghost Gallery à Seattle (États-Unis, 2022), Anonyme Zeichner à la Galerie im Körnerpark, Berlin (2022) et la Higher Art Gallery, Michigan (États-Unis, 2024). Elle a été nommée au Prix de Novembre à Vitry, 50ᵉ édition (2019).</p>
   </div>
 </div>
+
+<p class="wrap" style="margin:-2rem 0 5rem"><a class="text-link" href="{{ site.data.i18n[page.lang].about.presskit_file | relative_url }}" download>{{ site.data.i18n[page.lang].about.presskit }}</a></p>

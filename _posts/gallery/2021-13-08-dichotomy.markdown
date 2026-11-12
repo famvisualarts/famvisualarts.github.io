@@ -11,6 +11,7 @@ date:   2021-09-14  19:59:30
 logo: logoblack
 preview: /img/dichotomy.png
 category: drawing
+image: /img/web/1600/dichotomy.jpg
 ---
 
 ![dichotomy](/img/web/1600/dichotomy.jpg) 

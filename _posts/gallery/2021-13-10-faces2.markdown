@@ -12,6 +12,7 @@ date:   2023-07-14 17:58:19
 logo: logoblack
 preview: /img/worksonpaper/faces2.png
 category: drawing
+image: /img/web/1600/worksonpaper/faces2.jpg
 ---
 
 ![faces series](/img/web/1600/worksonpaper/faces2.jpg) 

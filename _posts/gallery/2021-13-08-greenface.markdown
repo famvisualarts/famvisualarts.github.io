@@ -11,6 +11,7 @@ date:   2022-09-17  19:59:30
 logo: logoblack
 preview: /img/worksonpaper/greenface.jpg
 category: drawing
+image: /img/web/1600/worksonpaper/greenface.jpg
 ---
 
 ![dichotomy](/img/web/1600/worksonpaper/greenface.jpg) 

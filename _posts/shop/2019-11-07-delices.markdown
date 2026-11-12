@@ -12,6 +12,7 @@ preview: /img/delices.jpg
 category: shoporiginal
 price: 320
 description: the delights of reverie, acrylic on canva, 80x60 cm, 2019
+image: /img/web/1600/delices.jpg
 ---
 
 ![The delights of reverie](/img/web/1600/delices.jpg) 

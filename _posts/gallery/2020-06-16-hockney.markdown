@@ -9,6 +9,7 @@ date:   2020-06-16 17:57:21
 logo: logoblack
 preview: /img/hockneyspring-opt.jpg
 category: illustration
+image: /img/web/1600/hockneyspring-opt.jpg
 ---
 
 ![dessinez le printemps comme David Hockney](/img/web/1600/hockneyspring-opt.jpg) 

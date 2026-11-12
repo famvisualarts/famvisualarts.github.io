@@ -11,6 +11,7 @@ date:   2021-08-13 17:55:19
 logo: logoblack
 preview: /img/littlegirl.jpg
 category: drawing
+image: /img/web/1600/littlegirl.jpg
 ---
 
 ![little girl](/img/web/1600/littlegirl.jpg) 

@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2025/1.jpg
 category: painting
 price: 350
+image: /img/web/1600/paintings2025/1.jpg
 ---
 
 

@@ -1,4 +1,5 @@
 ---
+title: "CV"
 layout: page
 permalink: /cv/
 ref: cv
@@ -58,3 +59,5 @@ FAM (b. 1987) is a French visual artist. She lives and works near Paris.
 - **2008** Bachelor’s degree, Mathematics and Computer Science, USTO-MB, Oran
 
 </div>
+
+<p class="wrap" style="margin:-2rem 0 5rem"><a class="text-link" href="{{ site.data.i18n[page.lang].about.presskit_file | relative_url }}" download>{{ site.data.i18n[page.lang].about.presskit }}</a></p>

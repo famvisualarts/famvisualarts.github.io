@@ -10,6 +10,7 @@ preview: /img/americangothic/americangothic-min.jpg
 category: shopprint
 price: 45
 description: American Gothic, Peinture numérique, décembre 2020
+image: /img/web/1600/americangothic/americangothic-min.jpg
 ---
 
 ![American gothic-revisited](/img/web/1600/americangothic/americangothic-min.jpg) 

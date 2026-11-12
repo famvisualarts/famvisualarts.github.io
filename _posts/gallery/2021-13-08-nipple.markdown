@@ -7,6 +7,7 @@ date:   2023-07-13  14:59:30
 logo: logoblack
 preview: /img/digital2023/nipple.png
 category: illustration
+image: /img/web/1600/digital2023/nipple.jpg
 ---
 
 ![christine lagarde](/img/web/1600/digital2023/nipple.jpg) 

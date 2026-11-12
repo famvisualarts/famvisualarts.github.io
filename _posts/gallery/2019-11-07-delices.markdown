@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/delices.jpg
 category: /
 tagmerit: 🖼 collective exhibition at JEAN-COLLET gallery, dec 2019
+image: /img/web/1600/delices.jpg
 ---
 
 Collective exhibition

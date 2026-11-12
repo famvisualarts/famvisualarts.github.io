@@ -9,6 +9,7 @@ date:   2020-07-20 17:57:21
 logo: logoblack
 preview: /img/zinc/zinc.jpg
 category: illustration
+image: /img/web/1600/zinc/zinc.jpg
 ---
 
 ![zinc](/img/web/1600/zinc/zinc.jpg) 

@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2025/naurel.jpg
 category: painting
 price: 800
+image: /img/web/1600/paintings2025/naurel.jpg
 ---
 
 

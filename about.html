@@ -1,10 +1,13 @@
 ---
+title: "About"
 layout: page
 permalink: /about/
 ref: about
 heading: About
 subnav: about
 section: about
+redirect_from:
+  - /biography/
 ---
 <div class="bio">
   <div class="portrait">{% include img.html src="/img/artist/artist1.JPG" alt="FAM, visual artist" sizes="(max-width: 760px) 100vw, 40vw" eager=true %}</div>
@@ -20,3 +23,5 @@ section: about
 <p>In recent years she has taken part in group exhibitions in France and abroad, including the Salon des artistes locaux at La Graineterie art centre in Houilles (49th, 50th and 51st editions, 2022–2024), Décembre à Montreuil (2023), A Space Arts in Southampton (UK, 2023), Art Boom NFT at Focus Art Fair, Carrousel du Louvre, Paris (2022), Ghost Gallery in Seattle (US, 2022), Anonyme Zeichner at Galerie im Körnerpark, Berlin (2022), and Higher Art Gallery, Michigan (US, 2024). She was nominated for the Prix de Novembre à Vitry, 50th edition (2019).</p>
   </div>
 </div>
+
+<p class="wrap" style="margin:-2rem 0 5rem"><a class="text-link" href="{{ site.data.i18n[page.lang].about.presskit_file | relative_url }}" download>{{ site.data.i18n[page.lang].about.presskit }}</a></p>

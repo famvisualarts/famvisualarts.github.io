@@ -11,6 +11,7 @@ date:   2023-07-13 20:59:42
 logo: logoblack
 preview: /img/worksonpaper/masks.png
 category: drawing
+image: /img/web/1600/worksonpaper/masks.jpg
 ---
 
 ![faces series](/img/web/1600/worksonpaper/masks.jpg) 

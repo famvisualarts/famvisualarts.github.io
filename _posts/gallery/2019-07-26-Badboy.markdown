@@ -9,6 +9,7 @@ logo: logoblack
 date:   2019-07-26 16:24:21
 preview: /img/kowala.jpg
 category: illustration
+image: /img/web/1600/kowala.jpg
 ---
 
 ![Bad boy](/img/web/1600/kowala.jpg) 

@@ -19,8 +19,14 @@ en:
     all: All
     paintings: Paintings
     paper: Works on paper
+    s404: 404 series
+    sik: Sik series
+    faces: Faces series
   about:
     bio: Bio
+    statement: Statement
+    presskit: Download the press kit (PDF)
+    presskit_file: /presse/FAM-press-kit.pdf
     cv: CV
   news:
     upcoming: Upcoming
@@ -110,8 +116,14 @@ fr:
     all: Tout
     paintings: Peintures
     paper: Œuvres sur papier
+    s404: Série 404
+    sik: Série Sik
+    faces: Série Faces
   about:
     bio: Bio
+    statement: Démarche
+    presskit: Télécharger le dossier de presse (PDF)
+    presskit_file: /presse/FAM-dossier-de-presse.pdf
     cv: CV
   news:
     upcoming: À venir

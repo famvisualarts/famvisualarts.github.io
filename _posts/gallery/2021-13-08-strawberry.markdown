@@ -9,6 +9,7 @@ date:   2021-08-14  19:49:30
 logo: logoblack
 preview: /img/strawberry.jpg
 category: illustration
+image: /img/web/1600/strawberry.jpg
 ---
 
 ![night and light](/img/web/1600/strawberry.jpg) 

@@ -11,6 +11,7 @@ date:   2023-09-07 13:56:21
 logo: logoblack
 preview: /img/paintings2024/saucetomate.jpg
 category: drawing
+image: /img/web/1600/paintings2024/saucetomate.jpg
 ---
 
 

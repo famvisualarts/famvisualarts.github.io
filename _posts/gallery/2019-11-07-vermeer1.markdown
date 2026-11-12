@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/vermeer1.jpg
 category: /
 tagmerit: 🔥 Sold out
+image: /img/web/1600/vermeer1.jpg
 ---
 
 ![Music class](/img/web/1600/vermeer.jpg) 
