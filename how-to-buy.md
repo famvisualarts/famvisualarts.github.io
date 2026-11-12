@@ -41,7 +41,7 @@ Every original is signed and comes with a signed certificate of authenticity.
 
 ## More photos, dimensions
 
-Each work's dimensions are on its page. For more photos, a video or hanging advice, [write to me]({{ '/contact/' | relative_url }}).
+On each work for sale, a room view (photomontage) shows the work above a 180 cm sideboard, so you can judge its size. For more photos, a video or hanging advice, [write to me]({{ '/contact/' | relative_url }}).
 
 ## Changing your mind
 
