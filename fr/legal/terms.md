@@ -10,7 +10,7 @@ Ces conditions s’appliquent à toute vente d’œuvre conclue sur famvisualart
 
 ## Vendeuse
 
-**Farah Cherif**, artiste auteure exerçant sous le nom FAM, **[à compléter : adresse postale]**, SIRET **850 193 772 00025**, e-mail [famartwork@gmail.com](mailto:famartwork@gmail.com), téléphone +33 7 82 73 62 86.
+**Farah Cherif**, artiste auteure exerçant sous le nom FAM, 12 rue du Chemin Vert, 92150 Suresnes, France, SIRET **850 193 772 00025**, e-mail [famartwork@gmail.com](mailto:famartwork@gmail.com), téléphone +33 7 82 73 62 86.
 
 ## Œuvres et prix
 
@@ -32,6 +32,6 @@ L’achat d’une œuvre transfère la propriété de l’objet, pas les droits 
 
 ## Litiges
 
-Les présentes conditions sont soumises au droit français. En cas de litige, vous pouvez recourir gratuitement au médiateur de la consommation : **[à compléter : nom et coordonnées du médiateur]**.
+Les présentes conditions sont soumises au droit français. En cas de litige, écrivez d’abord à [famartwork@gmail.com](mailto:famartwork@gmail.com) : nous chercherons ensemble une solution amiable. Les coordonnées du médiateur de la consommation seront indiquées ici dès sa désignation.
 
 </div>

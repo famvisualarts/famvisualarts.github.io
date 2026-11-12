@@ -10,7 +10,7 @@ These terms apply to every sale of a work made on famvisualarts.github.io.
 
 ## Seller
 
-**Farah Cherif**, visual artist working as FAM, **[to complete: postal address]**, SIRET **850 193 772 00025**, email [famartwork@gmail.com](mailto:famartwork@gmail.com), phone +33 7 82 73 62 86.
+**Farah Cherif**, visual artist working as FAM, 12 rue du Chemin Vert, 92150 Suresnes, France, SIRET **850 193 772 00025**, email [famartwork@gmail.com](mailto:famartwork@gmail.com), phone +33 7 82 73 62 86.
 
 ## Works and prices
 
@@ -32,6 +32,6 @@ Buying a work transfers ownership of the object, not the copyright. Any reproduc
 
 ## Disputes
 
-These terms are governed by French law. Consumers may use the consumer mediator free of charge: **[to complete: mediator name and contact]**.
+These terms are governed by French law. In case of dispute, please first write to [famartwork@gmail.com](mailto:famartwork@gmail.com) so we can find an amicable solution. The consumer mediator’s details will be added here once appointed.
 
 </div>

@@ -8,7 +8,7 @@ heading: "Legal notice"
 
 ## Publisher
 
-**Farah Cherif** (FAM), **[to complete: postal address]**, SIRET **850 193 772 00025**. Contact: [famartwork@gmail.com](mailto:famartwork@gmail.com).
+**Farah Cherif** (FAM), 12 rue du Chemin Vert, 92150 Suresnes, France, SIRET **850 193 772 00025**. Contact: [famartwork@gmail.com](mailto:famartwork@gmail.com).
 
 ## Hosting
 

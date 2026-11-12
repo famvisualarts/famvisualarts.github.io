@@ -6,7 +6,7 @@ description: >-
   works, exhibitions and contact.
 locale: en_US
 lang: en
-legal_ready: false
+legal_ready: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://famvisualarts.github.io" # "https://famofficially.github.io" #"https://farah-cherif.github.io" # the base hostname & protocol for your site
 facebook_username: famvisualarts
@@ -47,9 +47,6 @@ exclude:
   - vendor
   - tools
   - SHOP.md
-  # Legal pages stay unpublished until the seller details are filled in (then remove these two lines and set legal_ready: true)
-  - legal
-  - fr/legal
 
 
 defaults:
