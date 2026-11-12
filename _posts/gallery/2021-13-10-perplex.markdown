@@ -11,6 +11,7 @@ date:   2021-08-13  17:59:19
 logo: logoblack
 preview: /img/perplex.jpg
 category: drawing
+image: /img/web/1600/perplex.jpg
 ---
 
 ![Le carrousel Jules Verne](/img/web/1600/perplex.jpg) 

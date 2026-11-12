@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/hungry_artist.jpg
 category: /
 tagmerit: 🖼 virtual exhibition at Ornata, March 2020
+image: /img/web/1600/hungry_artist.jpg
 ---
 
 ![Banana](/img/web/1600/hungry_artist.jpg) 

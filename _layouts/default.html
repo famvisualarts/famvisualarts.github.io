@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
   {% include head.html %}
-  <body class="{{ page.body_class }}"{% if page.layout == "post" %} data-langless{% endif %}>
+  <body class="{{ page.body_class }}"{% if page.layout == "post" or page.langless %} data-langless{% endif %}>
     {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
     <a class="skip-link" href="#main">{{ t.skip }}</a>
     {% include header.html %}

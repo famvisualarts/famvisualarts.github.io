@@ -7,6 +7,7 @@ date:   2023-07-15  19:59:30
 logo: logoblack
 preview: /img/digital2023/friends1.png
 category: illustration
+image: /img/web/1600/digital2023/friends1.jpg
 ---
 
 ![christine lagarde](/img/web/1600/digital2023/friends1.jpg) 

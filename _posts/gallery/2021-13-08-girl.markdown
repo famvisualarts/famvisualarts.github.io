@@ -9,6 +9,7 @@ date:   2021-08-14  18:59:30
 logo: logoblack
 preview: /img/girl.jpg
 category: illustration
+image: /img/web/1600/girl.jpg
 ---
 
 ![night and light](/img/web/1600/girl.jpg) 

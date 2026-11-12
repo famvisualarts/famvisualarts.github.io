@@ -12,6 +12,7 @@ preview: /img/hungry_artist.jpg
 category: shoporiginal
 price: 195
 description: Ceci n'est pas une banane, Acrylique sur toile,40x40 cm, 2020.
+image: /img/web/1600/hungry_artist.jpg
 ---
 
 ![Banana](/img/web/1600/hungry_artist.jpg) 

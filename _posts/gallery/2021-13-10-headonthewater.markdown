@@ -11,6 +11,7 @@ date:   2021-08-13 17:59:21
 logo: logoblack
 preview: /img/headonthewater.jpg
 category: drawing
+image: /img/web/1600/headonthewater.jpg
 ---
 
 ![Le carrousel Jules Verne](/img/web/1600/headonthewater.jpg) 

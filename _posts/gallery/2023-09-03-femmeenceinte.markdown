@@ -11,6 +11,7 @@ date:   2024-12-1 13:58:22
 logo: logoblack
 preview: /img/paintings2024/femmeenceinte.jpg
 category: drawing
+image: /img/web/1600/paintings2024/femmeenceinte.jpg
 ---
 
 

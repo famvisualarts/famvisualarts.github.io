@@ -11,6 +11,7 @@ date:   2021-08-13  17:59:30
 logo: logoblack
 preview: /img/complicated.jpg
 category: drawing
+image: /img/web/1600/complicated.jpg
 ---
 
 ![Le carrousel Jules Verne](/img/web/1600/complicated.jpg) 

@@ -11,6 +11,7 @@ date:   2021-08-14 17:58:21
 logo: logoblack
 preview: /img/freinds.jpg
 category: drawing
+image: /img/web/1600/freinds.jpg
 ---
 
 ![freinds](/img/web/1600/freinds.jpg) 

@@ -11,6 +11,7 @@ date:   2022-09-20  19:59:30
 logo: logoblack
 preview: /img/worksonpaper/womens.jpg
 category: drawing
+image: /img/web/1600/worksonpaper/womens.jpg
 ---
 
 ![dichotomy](/img/web/1600/worksonpaper/womens.jpg) 

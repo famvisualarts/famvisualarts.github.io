@@ -11,6 +11,7 @@ date:   2021-09-15  19:59:30
 logo: logoblack
 preview: /img/goldengirl.jpg
 category: drawing
+image: /img/web/1600/goldengirl.jpg
 ---
 
 ![dichotomy](/img/web/1600/goldengirl.jpg) 

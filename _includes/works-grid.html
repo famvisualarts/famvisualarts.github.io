@@ -4,7 +4,7 @@
 {% assign shown = 0 %}
 <div class="works">
 {% for post in site.posts %}
-  {% assign show = false %}{% if cats contains post.category %}{% assign show = true %}{% if include.shop %}{% unless post.price or post.status %}{% assign show = false %}{% endunless %}{% endif %}{% endif %}
+  {% assign show = false %}{% if cats contains post.category %}{% assign show = true %}{% if include.shop %}{% unless post.price or post.status %}{% assign show = false %}{% endunless %}{% endif %}{% if include.series and post.series != include.series %}{% assign show = false %}{% endif %}{% endif %}
   {% if show %}
     {% if shown < lim %}
     {% assign shown = shown | plus: 1 %}

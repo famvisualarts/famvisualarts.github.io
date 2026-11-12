@@ -10,6 +10,7 @@ logo: logoblack
 preview: /img/Ornata_Farah_cherif.jpg
 category: illustration
 tagmerit: 🔖 featured in ornata magazine, march 2020 issue N°7.
+image: /img/web/1600/Ornata_Farah_cherif.jpg
 ---
  
 ![Fly times](/img/web/1600/Ornata_Farah_cherif.jpg) 

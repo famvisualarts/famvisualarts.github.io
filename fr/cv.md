@@ -1,4 +1,5 @@
 ---
+title: "CV"
 layout: page
 permalink: /fr/cv/
 ref: cv
@@ -58,3 +59,5 @@ FAM (née en 1987) est une artiste plasticienne française. Elle vit et travaill
 - **2008** Licence, Mathématiques et informatique, USTO-MB, Oran
 
 </div>
+
+<p class="wrap" style="margin:-2rem 0 5rem"><a class="text-link" href="{{ site.data.i18n[page.lang].about.presskit_file | relative_url }}" download>{{ site.data.i18n[page.lang].about.presskit }}</a></p>

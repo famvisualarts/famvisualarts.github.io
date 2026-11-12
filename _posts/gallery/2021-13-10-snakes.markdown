@@ -11,6 +11,7 @@ date:   2021-08-13 17:58:19
 logo: logoblack
 preview: /img/snakes.jpg
 category: drawing
+image: /img/web/1600/snakes.jpg
 ---
 
 ![snaks](/img/web/1600/snakes.jpg) 

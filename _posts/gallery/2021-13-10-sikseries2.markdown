@@ -12,6 +12,7 @@ date:   2023-07-11 20:50:42
 logo: logoblack
 preview: /img/worksonpaper/sikseries2.png
 category: drawing
+image: /img/web/1600/worksonpaper/sikseries2.jpg
 ---
 
 ![sik](/img/web/1600/worksonpaper/sikseries2.jpg) 

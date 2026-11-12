@@ -9,6 +9,7 @@ date:   2023-04-12  19:59:30
 logo: logoblack
 preview: /img/digital2023/hellofriends.jpg
 category: illustration
+image: /img/web/1600/digital2023/hellofriends.jpg
 ---
 
 

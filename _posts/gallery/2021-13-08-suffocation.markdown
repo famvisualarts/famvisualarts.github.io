@@ -11,6 +11,7 @@ date:   2022-09-15  19:59:30
 logo: logoblack
 preview: /img/worksonpaper/suffocation.jpg
 category: drawing
+image: /img/web/1600/worksonpaper/suffocation.jpg
 ---
 
 ![dichotomy](/img/web/1600/worksonpaper/suffocation.jpg) 

@@ -15,6 +15,13 @@ instagram_username: famvisualarts
 
 
 # Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+twitter:
+  card: summary_large_image
+logo: /img/web/1600/paintings2024/Dogma_land.jpg
 markdown: kramdown
 permalink: pretty
 #theme ci dessous mis en commebtaire car erreur de lancer jekyll
@@ -32,6 +39,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - urban.gemspec
+  - gallerydigitalart.md
+  - gallerynft.md
+  - posters.md
+  - expo_publications
+  - news/Ornata-selection.png
   - vendor
   - tools
   - SHOP.md
@@ -45,6 +57,7 @@ defaults:
     path: ''
   values:
     lang: en
+    image: /img/web/1600/paintings2025/Again&again.jpg
 - scope:
     path: 'fr'
   values:

@@ -4,7 +4,7 @@ Run from the repository root:  python3 tools/optimize_images.py
 - Reads image paths referenced in _posts, _data and the about pages.
 - Writes img/web/800/... and img/web/1600/... as progressive JPEG (originals untouched).
 - Writes _data/images.yml: original path -> small/large web paths + size, used by the templates.
-- Rewrites image links inside _posts to the 1600 px version.
+- Rewrites image links inside _posts to the 1600 px version and sets each work's share image.
 Re-run it after adding new works; already-built files are skipped.
 """
 import glob, io, os, re
@@ -61,7 +61,11 @@ def main():
         head, sep, body = s.partition("\n---\n")
         body2 = re.sub(r"\]\((/img/(?!web/)[^)\s]+\.(?:jpe?g|png))\)",
                        lambda m: f"]({web_path(m.group(1), SIZES['l'])})" if os.path.exists(m.group(1)[1:]) else m.group(0), body, flags=re.I)
-        if body2 != body:
+        # share image (og:image) = 1600 px copy of the preview
+        m = re.search(r"^preview:\s*(\S+)", head, re.M)
+        if m and os.path.exists(m.group(1)[1:]) and not re.search(r"^image:", head, re.M):
+            head = head + "\nimage: " + web_path(m.group(1), SIZES["l"])
+        if head + sep + body2 != s:
             io.open(f, "w", encoding="utf-8").write(head + sep + body2)
     print(f"{len(refs)} images processed")
 

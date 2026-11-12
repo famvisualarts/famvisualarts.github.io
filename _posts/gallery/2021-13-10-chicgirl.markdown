@@ -11,6 +11,7 @@ date:   2023-07-14 17:58:19
 logo: logoblack
 preview: /img/worksonpaper/chicgirl.png
 category: drawing
+image: /img/web/1600/worksonpaper/chicgirl.jpg
 ---
 
 ![chic girl](/img/web/1600/worksonpaper/chicgirl.jpg) 

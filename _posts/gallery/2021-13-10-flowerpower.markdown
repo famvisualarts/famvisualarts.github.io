@@ -11,6 +11,7 @@ date:   2021-08-13 17:57:19
 logo: logoblack
 preview: /img/flowerpower.jpg
 category: drawing
+image: /img/web/1600/flowerpower.jpg
 ---
 
 ![flower power](/img/web/1600/flowerpower.jpg) 

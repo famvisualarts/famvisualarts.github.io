@@ -7,6 +7,7 @@ date:   2022-02-01 14:57:21
 logo: logoblack
 preview: /img/nftcollection/moonboynft.jpg
 category: nft
+image: /img/web/1600/nftcollection/moonboynft.jpg
 ---
 
 ![putriochka nft collection ](/img/web/1600/nftcollection/moonboynft.jpg) 

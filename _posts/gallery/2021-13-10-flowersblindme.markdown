@@ -11,6 +11,7 @@ date:   2021-08-13 17:56:19
 logo: logoblack
 preview: /img/flowersblindme.jpg
 category: drawing
+image: /img/web/1600/flowersblindme.jpg
 ---
 
 ![flowers blind me](/img/web/1600/flowersblindme.jpg) 

@@ -11,6 +11,7 @@ date:   2023-07-13 20:59:43
 logo: logoblack
 preview: /img/worksonpaper/girlwithapples.png
 category: drawing
+image: /img/web/1600/worksonpaper/girlwithapples.jpg
 ---
 
 ![faces series](/img/web/1600/worksonpaper/girlwithapples.jpg) 

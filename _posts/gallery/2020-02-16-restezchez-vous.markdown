@@ -10,6 +10,7 @@ date:   2020-03-25 16:00:21
 logo: logoblack
 preview: /img/restez-chez-vous.jpg
 category: illustration
+image: /img/web/1600/restez-chez-vous.jpg
 ---
 
 ![RestezChezVous](/img/web/1600/restez-chez-vous.jpg) 

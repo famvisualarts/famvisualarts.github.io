@@ -9,6 +9,7 @@ date:   2020-12-26 17:56:21
 logo: logoblack
 preview: /img/dreamhouse.jpg
 category: illustration
+image: /img/web/1600/dreamhouse.jpg
 ---
 
 ![dreamhouse](/img/web/1600/dreamhouse.jpg) 

@@ -8,6 +8,7 @@ date:   2022-02-01 18:57:21
 logo: logoblack
 preview: /img/nftcollection/fuckinglegend.jpg
 category: nft
+image: /img/web/1600/nftcollection/fuckinglegend.jpg
 ---
 
 ![Fuckinglegend](/img/web/1600/nftcollection/fuckinglegend.jpg) 

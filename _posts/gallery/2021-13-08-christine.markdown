@@ -9,6 +9,7 @@ date:   2022-02-14  19:59:30
 logo: logoblack
 preview: /img/christine.jpg
 category: illustration
+image: /img/web/1600/christine.jpg
 ---
 
 ![christine lagarde](/img/web/1600/christine.jpg) 

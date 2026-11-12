@@ -11,6 +11,7 @@ date:   2021-09-20  19:59:30
 logo: logoblack
 preview: /img/worksonpaper/sequels.jpg
 category: drawing
+image: /img/web/1600/worksonpaper/sequels.jpg
 ---
 
 ![dichotomy](/img/web/1600/worksonpaper/sequels.jpg) 

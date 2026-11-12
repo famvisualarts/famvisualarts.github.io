@@ -7,6 +7,7 @@ date:   2023-07-13  19:59:40
 logo: logoblack
 preview: /img/digital2023/icecream1.jpg
 category: illustration
+image: /img/web/1600/digital2023/icecream1.jpg
 ---
 
 ![christine lagarde](/img/web/1600/digital2023/icecream1.jpg) 

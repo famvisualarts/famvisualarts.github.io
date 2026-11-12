@@ -7,6 +7,7 @@ date:   2022-02-01 14:56:21
 logo: logoblack
 preview: /img/nftcollection/putriochka-nft.jpg
 category: nft
+image: /img/web/1600/nftcollection/putriochka-nft.jpg
 ---
 
 ![putriochka nft collection ](/img/web/1600/nftcollection/putriochka-nft.jpg) 
