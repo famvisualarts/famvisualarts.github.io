@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/Fuck_around.jpg
 category: painting
 price: 800
+stripe_link: "https://buy.stripe.com/4gM3cxgq3gXD1C44oy8ww07"
 image: /img/web/1600/paintings2024/Fuck_around.jpg
 ---
 

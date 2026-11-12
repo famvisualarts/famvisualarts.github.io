@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2025/naurel.jpg
 category: painting
 price: 800
+stripe_link: "https://buy.stripe.com/eVqaEZ1v9dLra8Af3c8ww0k"
 image: /img/web/1600/paintings2025/naurel.jpg
 ---
 

@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/romantic_as_fuck.jpg
 category: painting
 price: 800
+stripe_link: "https://buy.stripe.com/14A7sN2zd4aR94wf3c8ww0b"
 image: /img/web/1600/paintings2024/romantic_as_fuck.jpg
 ---
 

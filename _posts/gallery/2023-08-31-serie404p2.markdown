@@ -13,6 +13,7 @@ category: painting
 medium: "Oil on canvas"
 medium_fr: "Huile sur toile"
 price: 1000
+stripe_link: "https://buy.stripe.com/dRmbJ3ddR8r7cgI4oy8ww01"
 image: /img/web/1600/paintings2023/p2/p2show.jpg
 ---
 
