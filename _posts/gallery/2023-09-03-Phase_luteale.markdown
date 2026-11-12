@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/Phase_luteale.jpg
 category: painting
 price: 450
+stripe_link: "https://buy.stripe.com/test_dRm3cu8gbeRN8qWghO48008"
 image: /img/web/1600/paintings2024/Phase_luteale.jpg
 ---
 

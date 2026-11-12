@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/Dogma_land.jpg
 category: painting
 price: 1000
+stripe_link: "https://buy.stripe.com/test_4gM8wOeEz7plfTod5C48006"
 image: /img/web/1600/paintings2024/Dogma_land.jpg
 ---
 

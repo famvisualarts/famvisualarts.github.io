@@ -13,6 +13,7 @@ logo: logoblack
 preview: /img/paintings2023/p1/p11.jpg
 category: painting
 price: 1000
+stripe_link: "https://buy.stripe.com/test_9B63cu8gbbFB22yc1y48000"
 image: /img/web/1600/paintings2023/p1/p11.jpg
 ---
 

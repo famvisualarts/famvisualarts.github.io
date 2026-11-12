@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/aubergine.jpg
 category: painting
 price: 800
+stripe_link: "https://buy.stripe.com/test_5kQ3cufID2516iO8Pm48009"
 image: /img/web/1600/paintings2024/aubergine.jpg
 ---
 

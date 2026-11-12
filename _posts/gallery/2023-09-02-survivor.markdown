@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2024/ovni.png
 category: painting
 price: 1000
+stripe_link: "https://buy.stripe.com/test_cNidR8cwr5hd0Yu3v248005"
 image: /img/web/1600/paintings2024/ovni.jpg
 ---
 

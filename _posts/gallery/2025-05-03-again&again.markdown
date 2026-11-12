@@ -12,6 +12,7 @@ logo: logoblack
 preview: /img/paintings2025/Again&again.jpg
 category: painting
 price: 800
+stripe_link: "https://buy.stripe.com/test_dRmbJ0bsn6lhbD80iQ4800j"
 image: /img/web/1600/paintings2025/Again&again.jpg
 ---
 
