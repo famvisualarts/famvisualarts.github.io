@@ -8,7 +8,7 @@ heading: "Mentions légales"
 
 ## Éditrice du site
 
-**[à compléter : nom et prénom]** (FAM), **[à compléter : adresse postale]**, SIRET **[à compléter]**. Contact : [famartwork@gmail.com](mailto:famartwork@gmail.com). Directrice de la publication : **[à compléter]**.
+**Farah Cherif** (FAM), **[à compléter : adresse postale]**, SIRET **850 193 772 00025**. Contact : [famartwork@gmail.com](mailto:famartwork@gmail.com). Directrice de la publication : **Farah Cherif**.
 
 ## Hébergement
 

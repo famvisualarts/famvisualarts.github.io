@@ -10,9 +10,9 @@ heading: "Livraison et retours"
 
 Chaque œuvre est emballée à la main avec protection des angles, papier de soie et carton renforcé. Les toiles de grand format sont expédiées en caisse ou en carton double cannelure.
 
-Les frais de livraison sont indiqués avant le paiement, selon le pays de destination. L’envoi se fait en colis suivi et assuré, sous **[à compléter : 3 à 7] jours ouvrés** après la commande.
+Les frais de livraison sont indiqués avant le paiement, selon le pays de destination. L’envoi se fait en colis suivi et assuré, sous **48 heures** (jours ouvrés) après la commande.
 
-Zones de livraison : **[à compléter : France métropolitaine, Union européenne, Royaume-Uni, États-Unis…]**.
+Zones de livraison : France, Europe et reste du monde pour les œuvres sur papier et les formats jusqu’à 55 cm ; France et Europe pour les grands formats (89 cm et plus) — hors Europe, sur devis.
 
 Un certificat d’authenticité signé accompagne chaque original.
 

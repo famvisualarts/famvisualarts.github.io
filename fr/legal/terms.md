@@ -10,13 +10,13 @@ Ces conditions s’appliquent à toute vente d’œuvre conclue sur famvisualart
 
 ## Vendeuse
 
-**[à compléter : nom et prénom]**, artiste auteure exerçant sous le nom FAM, **[à compléter : adresse postale]**, SIRET **[à compléter]**, e-mail [famartwork@gmail.com](mailto:famartwork@gmail.com), téléphone +33 7 82 73 62 86.
+**Farah Cherif**, artiste auteure exerçant sous le nom FAM, **[à compléter : adresse postale]**, SIRET **850 193 772 00025**, e-mail [famartwork@gmail.com](mailto:famartwork@gmail.com), téléphone +33 7 82 73 62 86.
 
 ## Œuvres et prix
 
 Les œuvres proposées sont des originaux uniques. Les photographies sont aussi fidèles que possible ; de légères différences de couleur peuvent exister selon l’écran.
 
-Les prix sont indiqués en euros, toutes taxes comprises. **[à compléter : « TVA non applicable, article 293 B du CGI » si vous êtes en franchise de TVA]**. Les frais de livraison sont ajoutés avant le paiement.
+Les prix sont indiqués en euros, toutes taxes comprises. TVA non applicable, article 293 B du CGI. Les frais de livraison sont ajoutés avant le paiement.
 
 ## Commande et paiement
 

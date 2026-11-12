@@ -10,13 +10,13 @@ These terms apply to every sale of a work made on famvisualarts.github.io.
 
 ## Seller
 
-**[to complete: full name]**, visual artist working as FAM, **[to complete: postal address]**, SIRET **[to complete]**, email [famartwork@gmail.com](mailto:famartwork@gmail.com), phone +33 7 82 73 62 86.
+**Farah Cherif**, visual artist working as FAM, **[to complete: postal address]**, SIRET **850 193 772 00025**, email [famartwork@gmail.com](mailto:famartwork@gmail.com), phone +33 7 82 73 62 86.
 
 ## Works and prices
 
 The works offered are unique originals. Photographs are as faithful as possible; colours may vary slightly between screens.
 
-Prices are in euros, all taxes included. **[to complete: “VAT not applicable, article 293 B of the French tax code” if applicable]**. Shipping is added before payment.
+Prices are in euros, all taxes included. VAT not applicable, article 293 B of the French tax code (CGI). Shipping is added before payment.
 
 ## Order and payment
 
