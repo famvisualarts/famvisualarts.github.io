@@ -294,3 +294,33 @@ main { min-height: calc(100vh - var(--header-h) - 10rem); }
 .shop-intro { padding: 0 var(--gutter) 2.5rem; max-width: calc(var(--measure) + 2 * var(--gutter)); margin: 0; }
 .shop-empty { padding: 0 var(--gutter) 5rem; color: var(--label); }
 .footer-legal { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; }
+
+/* ---------- Work page: room view, trust list, share, zoom ---------- */
+.work-room { margin: 0; }
+.work-room img { width: 100%; max-height: none; }
+.work-room figcaption { margin-top: .6rem; font-size: var(--step--1); color: var(--label); text-align: center; }
+.trust { list-style: none; margin: 1.25rem 0 0; padding: 1rem 0 0; border-top: 1px solid var(--hairline); font-size: var(--step--1); color: var(--label); }
+.trust li { margin: 0 0 .45rem; padding-left: 1.1rem; position: relative; }
+.trust li::before { content: ""; position: absolute; left: 0; top: .55em; width: .45rem; height: 1px; background: var(--ink); }
+.how-link { margin: .75rem 0 0; font-size: var(--step--1); }
+.work-share { margin: 1rem 0 0; font-size: var(--step--1); }
+.share-btn { font: inherit; color: var(--label); background: none; border: 0; padding: 0; cursor: pointer; border-bottom: 1px solid var(--hairline); }
+.share-btn:hover { color: var(--ink); border-color: var(--oxblood); }
+.share-status { color: var(--label); margin-left: .5rem; }
+img.zoomable { cursor: zoom-in; }
+dialog.zoom { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(250, 249, 247, .98); }
+dialog.zoom::backdrop { background: rgba(250, 249, 247, .98); }
+dialog.zoom[open] { display: grid; place-items: center; }
+dialog.zoom img { max-width: 94vw; max-height: 90dvh; width: auto; height: auto; cursor: zoom-out; }
+dialog.zoom button { position: fixed; font: 400 1.5rem/1 var(--sans); color: var(--ink); background: var(--wall); border: 1px solid var(--hairline); width: 2.75rem; height: 2.75rem; cursor: pointer; }
+dialog.zoom button:hover { border-color: var(--ink); }
+.zoom-close { top: 1rem; right: 1rem; }
+.zoom-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.zoom-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+@media (prefers-reduced-motion: no-preference) { dialog.zoom[open] img { animation: zoomin .18s ease-out; } @keyframes zoomin { from { opacity: 0; transform: scale(.98); } } }
+
+/* ---------- How to buy ---------- */
+.faq-intro { font: 400 var(--step-1)/1.45 var(--serif); }
+.prose table { border-collapse: collapse; width: 100%; max-width: var(--measure); font-size: .9375rem; margin: 1rem 0 1.5rem; }
+.prose th, .prose td { text-align: left; padding: .5rem .75rem .5rem 0; border-bottom: 1px solid var(--hairline); }
+.prose th { font-weight: 600; }

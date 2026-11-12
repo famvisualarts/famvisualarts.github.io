@@ -6,6 +6,7 @@
     <li><a href="https://www.facebook.com/famvisualarts" rel="noopener">Facebook</a></li>
   </ul>
   {% if site.legal_ready %}<ul class="footer-legal">
+    <li><a href="{{ t.prefix | append: '/' | append: t.how_slug | append: '/' | relative_url }}">{{ t.shop.how }}</a></li>
     <li><a href="{{ t.prefix | append: '/legal/shipping/' | relative_url }}">{{ t.shop.shipping }}</a></li>
     <li><a href="{{ t.prefix | append: '/legal/terms/' | relative_url }}">{{ t.shop.terms }}</a></li>
     <li><a href="{{ t.prefix | append: '/legal/notice/' | relative_url }}">{{ t.shop.legal }}</a></li>
