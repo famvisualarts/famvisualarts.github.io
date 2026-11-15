@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Faces"
-raw_title: "faces series, oil canvas paper, 24x33cm, 2026"
+raw_title: "faces series, oil canvas paper, 24x30 cm, 2026"
 medium: "Oil on canvas paper"
 medium_fr: "Huile sur papier toilé"
-dimensions: "24 × 33 cm"
-dimensions_fr: "24 × 33 cm"
+dimensions: "24 × 30 cm"
+dimensions_fr: "24 × 30 cm"
 year: 2026
 series: "faces"
 date:   2023-07-14 17:58:19

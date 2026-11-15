@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Survivor"
-raw_title: "survivor, Oil on canva, 24x33 cm, 2026"
+raw_title: "survivor, Oil on canva, 24x30 cm, 2026"
 medium: "Oil on canvas"
 medium_fr: "Huile sur toile"
-dimensions: "24 × 33 cm"
-dimensions_fr: "24 × 33 cm"
+dimensions: "24 × 30 cm"
+dimensions_fr: "24 × 30 cm"
 year: 2026
 date:   2023-09-02 13:58:21
 logo: logoblack
