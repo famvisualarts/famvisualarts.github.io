@@ -27,5 +27,8 @@
         });
       })();
     </script>
-  </body>
+    {%- if jekyll.environment == "production" %}
+  <script data-goatcounter="https://fam.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  {%- endif %}
+</body>
 </html>
